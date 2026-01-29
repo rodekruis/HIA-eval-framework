@@ -1,0 +1,195 @@
+env:
+  # ###########################################################################
+  # FEATURES:
+  # ###########################################################################
+  #
+  # For offline support: (set to 'true' / 'false')
+  NG_USE_SERVICE_WORKER: 'true'
+  #
+  # Use the "Offers" content-type: (set to 'true' / 'false')
+  NG_USE_OFFERS: 'true'
+  #
+  # Use the "Q&A" content-type: (set to 'true' / 'false')
+  NG_USE_Q_AND_AS: 'true'
+  #
+  # When using "Q&A"s, you can enable search: (set to 'true' / 'false')
+  NG_USE_Q_AND_A_SEARCH: 'true'
+  #
+  # Enable Feedback-prompt on Sub-Category and Offer pages (set to 'true' / 'false')
+  NG_USE_FEEDBACK_PROMPT: 'false'
+  #
+  # Use the language-switcher to switch between Regions (set to 'true' / 'false')
+  NG_USE_REGION_PER_LOCALE: 'false'
+  #
+  # Default language
+  NG_LOCALE_LANGUAGE: 'en'
+  # Default language direction (Possible values: 'ltr' or 'rtl')
+  NG_LOCALE_DIR: 'ltr'
+  # Available language options (Comma-separated list like: '<language-code>:<language-name>,ar:العربية,en:English,*:Other...')
+  # To disable the language-switcher on the main-page, or when using `NG_USE_REGION_PER_LOCALE=true`, set this to: ''
+  NG_LOCALE_ALTERNATIVES: 'ar:العربية, en:English, es:Español, fr:Français, *:Other...'
+  # An (optional) explanation below the list of available language options (i.e "* Using Google Translate")
+  NG_LOCALE_ALTERNATIVES_EXPLANATION: '* Translations via Google Translate'
+  #
+  #
+  # For demo-purpose only: A highly visible label to show instance name/version
+  ENV_NAME: ''
+  #
+  # ###########################################################################
+  # TEXT CONTENT:
+  # ###########################################################################
+  #
+  # A (short) name, visible in the top (navigation-)bar and in the browser's tab/window-title (and search-engine results)
+  TXT_APP_NAME: ''
+  # An absolute/data-URL to an image, visible in the top (navigation-)bar
+  TXT_APP_LOGO_URL: ''
+  # The first heading, (only) visible on the main-page
+  TXT_MAIN_PAGE_HEADER: ''
+  # The (optional) introduction text, (only) visible on the main-page.
+  # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
+  TXT_MAIN_PAGE_INTRO: >-
+    \n
+    \n
+  #
+  # An (optional) notice on the top of the screen, can be overwritten on sub-pages per-region by each region's sheet.
+  TXT_MAIN_PAGE_NOTICE: ''
+  #
+  # An (optional) "About"-page
+  # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
+  TXT_PAGE_ABOUT: >-
+    \n
+  #
+  # An (optional) "Privacy"-page
+  # Can be multiple-lines of Markdown syntax or contain some HTML. Newlines need to be specified with `\n` or `<br />`.
+  TXT_PAGE_PRIVACY: >-
+    \n
+  #
+  # An (optional) footer at the bottom of the screen, can be overwritten on sub-pages per-region by each region's sheet.
+  TXT_MAIN_FOOTER: >-
+    **Helpful Information**  \n
+    \n
+  #
+  # Contents of the 'error-page'
+  #
+  TXT_ERROR_HEADER: 'Data Unavailable'
+  # This Sentence will be followd by a link to the "Contact-URL" set below
+  TXT_ERROR_MESSAGE: 'Reach out to us at: '
+  # Provide a URL that has contact-information on it, or a `mailto:contact@example.org`-URL
+  TXT_ERROR_CONTACT_URL: 'https://github.com/${{ github.repository }}'
+  # Call to action on a link that will reload the current page
+  TXT_ERROR_RETRY: 'Try again?'
+  #
+  # ###########################################################################
+  # REGIONS/SHEETS:
+  # ###########################################################################
+  #
+  # When defining multiple regions/sheets, the order in the following 3 variables need to match.
+  # The last option in each list should NOT contain a comma (,) at the end.
+  #
+  # So in this example:
+  #  <REGION>  =  <REGION__LABEL>     =  <REGION__SHEET_ID>
+  #  "test"    =  "Test/Development"  =  "10SIJdAQSd6loqCyzwK409QS_01Fgp8P4aqoDO8iBvhY"
+  #
+  # The URL-part(s) to identify the region
+  REGIONS: >-
+    info
+  # The readable label(s) on the link to the region-page
+  REGIONS_LABELS: >-
+    Information
+  # The ID of the Google Sheet(s) that contains the content for the region
+  REGIONS_SHEET_IDS: >-
+    xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
+# #############################################################################
+#
+# See: https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions
+#
+# #############################################################################
+
+name: Deploy to GitHub Pages
+
+on:
+  workflow_dispatch:
+  push:
+    branches: ['main']
+    paths-ignore:
+      - '*.md'
+
+permissions:
+  actions: read
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    # Skip initial run directly after template instantiation
+    if: github.event.created != true
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify ENV configuration
+        if: env.REGIONS_SHEET_IDS == 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+        run: |
+          echo "⚠️ Set the appropriate Google Spreadsheet ID in \`REGIONS_SHEET_IDS\`, instead of the default/placeholder-value: \`xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx\`" >> $GITHUB_STEP_SUMMARY
+          echo "Edit [\`.github/workflows/deploy-github-pages.yml\`](../../edit/main/.github/workflows/deploy-github-pages.yml) to fix." >> $GITHUB_STEP_SUMMARY
+          echo "::error file=.github/workflows/deploy-github-pages.yml::Please change the ENV configuration to real-world values" && exit 1
+
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js version
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: 'package.json'
+          cache-dependency-path: 'package.json'
+          cache: 'npm'
+
+      - name: Install local
+        run: 'npm install --no-save'
+
+      - name: Set-up helpful-information
+        run: 'mv node_modules/helpful-information ./'
+
+      - name: Install helpful-information
+        working-directory: 'helpful-information'
+        run: 'npm ci --no-fund --no-audit'
+        env:
+          HUSKY: 0
+
+      - name: Build
+        working-directory: 'helpful-information'
+        # NOTE: When the instance will be run on a custom (sub-)domain, remove the `--base-href`-flag+value.
+        run: 'npm run build:production -- --output-path=../www --base-href=/${GITHUB_REPOSITORY#*/}/'
+        env:
+          # See all variables: https://github.com/rodekruis/helpful-information/blob/main/.env.example
+          NG_PRODUCTION: 'true'
+          GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
+          GOOGLE_SHEETS_API_URL: 'https://sheets.googleapis.com/v4/spreadsheets'
+
+      - name: Add generic files
+        run: 'cp -r ./public/. www/'
+
+      - name: Add 404.html
+        run: 'cp www/index.html www/404.html'
+
+      - name: Setup GitHub Pages
+        uses: actions/configure-pages@v5
+        with:
+          enablement: true
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'www'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
