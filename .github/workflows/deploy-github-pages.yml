@@ -97,8 +97,7 @@ env:
   REGIONS_LABELS: >-
     Information
   # The ID of the Google Sheet(s) that contains the content for the region
-  REGIONS_SHEET_IDS: >-
-    12YvtecYObiMdRqypf7OnqroUWmZC6AM-7pZvARNOkyA
+  REGIONS_SHEET_IDS: 12YvtecYObiMdRqypf7OnqroUWmZC6AM-7pZvARNOkyA
 
 # #############################################################################
 #
