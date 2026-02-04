@@ -172,6 +172,8 @@ jobs:
           NG_PRODUCTION: 'true'
           GOOGLE_SHEETS_API_KEY: ${{ secrets.GOOGLE_SHEETS_API_KEY }}
           GOOGLE_SHEETS_API_URL: 'https://sheets.googleapis.com/v4/spreadsheets'
+          SEARCH_API: 'https://hia-search.azurewebsites.net/search'
+          SEARCH_API_KEY: ${{ secrets.SEARCH_API_KEY }}
 
       - name: Add generic files
         run: 'cp -r ./public/. www/'
