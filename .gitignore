@@ -6,3 +6,6 @@ www
 
 # Third party code
 node_modules
+
+# API key
+.env

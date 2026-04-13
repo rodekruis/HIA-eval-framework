@@ -1,0 +1,429 @@
+input,actual_output,expected_output,context,source_file
+How do strict eligibility criteria and lack of social benefits hinder UM access to Dutch shelters?,,"Strict eligibility criteria and lack of social benefits make it very difficult for undocumented migrants (UM) to access shelters in the Netherlands. Most shelters require that people have previously applied for asylum or have a legal perspective on a new asylum request. People with a Dublin claim are often excluded. Additionally, UM are not entitled to social benefits and cannot access most government assistance, including social housing and health insurance. As a result, many shelters refuse people without a residence permit, making housing a major challenge for UM. Information about shelter options and criteria can be found on Stichting LOS and Helpful Information.","Q: What are relevant websites with information about / for UM? A: 
+* On the website of **LOS** you can find information about support organizations: https://www.stichtinglos.nl/content/organisaties and shelters in the Netherlands: https://www.stichtinglos.nl/noodopvang. 
+* On the website **Helpful Information** from the Red Cross you can find information about local organizations in different cities: https://helpfulinformation.redcross.nl/|Q: Why is somebody that is undocumented often in a vulnerable position? A: Undocumented migrants are regarded as a vulnerable group within society. They do not have a residence permit and, because of their limited rights, they quickly find themselves in unsafe or unhealthy situations. Because of their vulnerable position, they are easy prey for exploitation at the hands of bad employers, slum landlords or human traffickers.
+
+Also, they are not entitled to social benefits and cannot take out health insurance (the 1998 Dutch Benefit Entitlement (Residence Status) Act; Koppelingswet). They have only a very limited right to assistance and facilities from the government and other agencies. As a result, they can easily get into trouble. The Red Cross provides help to everyone, including undocumented migrants.|Q: When is somebody undocumented? A: An undocumented migrant is a person who has no right of residence in a country. They have no documents confirming a right of residence, such as a visa. Their work, residence or study visa has expired, or they may never have had one. 
+
+They are mainly migrants who:
+- have had their residence application rejected, for example asylum seekers whose application for asylum has been rejected;
+- have not applied for a residence permit, either for regular residence or asylum;
+- are victims of human trafficking;
+- do not have a work permit, for example domestic workers.
+
+EU citizens do not need to apply for a residence permit to be in the Netherlands legally. Migrants from the EU can therefore never be undocumented.""
+|Q: What is a Dublin claim? A: When somebody asks asylum in the Netherlands, their finger prints will be checked in an EU database. If their fingerprint is registered in another EU country, that country is responsible for proceeding the asylum procedure. In that case somebody gets a Dublin claim and has to return to the EU country where the fingerprint was taken. They cannot get asylum in the Netherlands. This is because according to the EU’s Dublin Regulation, somebody's asylum procedure must be carried out in the first country of arrival. 
+
+The Dublin claim ends after 18 months. So if somebody is capable of staying under the radar for 18 months, then he/ she can request asylum in the Netherlands.
+
+It is very hard for people with a Dublin Claim to get support. For example often local shelter programs do not provide shelter to people with a Dublin claim.|Q: Where can I find information about the programs of the Red Cross for Undocumented Migrants? A: As Red Cross we provide workshops to UM about health care, working rights, healthy habits, clear communication and first aid. We also have a [website](https://helpfulinformation.redcross.nl) with information about local aid organizations and we help people through our WhatsApp Helpline. Besides that people that are UM can also be in our food program or shelter program. This is always through the connection with a partner organization. For more information on our programs, you can have a look at our website: https://www.rodekruis.nl/wat-doen-wij/hulp-in-nederland/ondersteuning-ongedocumenteerde-migranten/|Q: Where can I find information about the shelter rights for Undocumented Migrants? A: You can find information about different shelter rights on the website of Stichting Los: https://www.stichtinglos.nl/content/opvang-en-onderdak
+
+In general people have the right to rent a house, but not from social corperate housing. There is no general right for shelter for people who are undocumented and most homeless shelters refuse people without residence permit. This means that housing is a very big challenge for people that are undocumented.
+
+In some cities there are BBB (Bed, Bad, Brood) shelters for undocumeted migrants or municipality shelter programs for undocumented migrants. They often work with criteria, for example that they have a rejected asylum request and that there is a perspective on a new asylum request. You can find information on this on helpful information https://helpfulinformation.redcross.nl/ or on the website of LOS: https://www.stichtinglos.nl/noodopvang|Q: What is our role on the helpdesk with regard to shelter questions from UM? A: What is our role on the helpdesk with regard to shelter questions from UM? 
+The Red Cross doesn’t have shelters ourselves. Therefore we cannot always help somebody. The Red Cross 
+does have a shelter program, but this is only for 10 days and when there is a partner organization involved. 
+Our goal on the helpdesk is to get a good understanding of the situation in order to: 
+• make a right referral, to a local support organization or to the district so they can help somebody further with support and advice. 
+• is known with day shelters (if he doesn’t know them yet).|Q: What does LVV stand for? A: LVV stands for Landelijke Vreemdelingen Voorziening. The LVV program was a government / municipality program where people who were rejected for asylum could get a place in a 24-hour shelter for a maximum of 18 months. If they were admitted to the program, they would have access to 24hour shelter, an allowance, professional guidance and different activities.
+
+Social workers supported them to find a solution to their situation: a residence permit, migrating to another country or returning to their home country.
+
+The Dutch government decided to end the finance for the LVV from 2025 onwards. For 2025 the cities Amsterdam, Utrecht, Eindhoven and Groningen have decided to continue the shelter program for Undocumented Migrants without the finance of the national government. Only Rotterdam decided to stop. Information on how to access the local municipality programs can be found on HIA.|Q: What does BBB stand for A: BBB stands for Bed, Bad, Brood. The local shelter locations for undocumented migrants are often called like this. Throughout the country there are several BBB's. You can find them on this website: https://www.stichtinglos.nl/noodopvang 
+
+Often they are full or they work with stricked criteria, such as a legal perspective on a new asylum request. So never just send somebody to these locations, but check with the local organization or with the TC.|Q: How can people enter a BBB / municipality shelter program? 
+ A: How can people enter a BBB / municipality shelter program?
+Not everybody can access the municipality shelter programs or BBB's. There are certain criteria. For example people need to have asked asylum in the past. And people with a Dublin claim can often not enter the local shelter programs. In order to get access to the shelter, people should go to one of the screening locations or get into contact with the BBB's. They they can get more information, share their story and perhaps be admitted in the program.
+
+Information on the local possibilities can be found on Helpful Information and on https://www.stichtinglos.nl/noodopvang. Never send somebody directly to a BBB, but always check first with TC.",
+Compare the impact of a Dublin claim and a rejected asylum request on shelter access and asylum eligibility.,,"A **Dublin claim** means the person must return to the first EU country where their fingerprints were registered, and they cannot apply for asylum in the Netherlands. People with a Dublin claim usually cannot access local shelter programs or BBB shelters.
+
+A **rejected asylum request** means the person applied for asylum in the Netherlands but was denied. These individuals may still have access to some shelter programs, such as LVV or BBB, if they meet certain criteria (like having a legal perspective on a new asylum request). 
+
+**In summary:**  
+- **Dublin claim:** No asylum eligibility in the Netherlands and very limited access to shelters.  
+- **Rejected asylum request:** No current asylum status, but possible access to some shelters and, in some cases, a chance to reapply for asylum.","Q: What are relevant websites with information about / for UM? A: 
+* On the website of **LOS** you can find information about support organizations: https://www.stichtinglos.nl/content/organisaties and shelters in the Netherlands: https://www.stichtinglos.nl/noodopvang. 
+* On the website **Helpful Information** from the Red Cross you can find information about local organizations in different cities: https://helpfulinformation.redcross.nl/|Q: Why is somebody that is undocumented often in a vulnerable position? A: Undocumented migrants are regarded as a vulnerable group within society. They do not have a residence permit and, because of their limited rights, they quickly find themselves in unsafe or unhealthy situations. Because of their vulnerable position, they are easy prey for exploitation at the hands of bad employers, slum landlords or human traffickers.
+
+Also, they are not entitled to social benefits and cannot take out health insurance (the 1998 Dutch Benefit Entitlement (Residence Status) Act; Koppelingswet). They have only a very limited right to assistance and facilities from the government and other agencies. As a result, they can easily get into trouble. The Red Cross provides help to everyone, including undocumented migrants.|Q: When is somebody undocumented? A: An undocumented migrant is a person who has no right of residence in a country. They have no documents confirming a right of residence, such as a visa. Their work, residence or study visa has expired, or they may never have had one. 
+
+They are mainly migrants who:
+- have had their residence application rejected, for example asylum seekers whose application for asylum has been rejected;
+- have not applied for a residence permit, either for regular residence or asylum;
+- are victims of human trafficking;
+- do not have a work permit, for example domestic workers.
+
+EU citizens do not need to apply for a residence permit to be in the Netherlands legally. Migrants from the EU can therefore never be undocumented.""
+|Q: What is a Dublin claim? A: When somebody asks asylum in the Netherlands, their finger prints will be checked in an EU database. If their fingerprint is registered in another EU country, that country is responsible for proceeding the asylum procedure. In that case somebody gets a Dublin claim and has to return to the EU country where the fingerprint was taken. They cannot get asylum in the Netherlands. This is because according to the EU’s Dublin Regulation, somebody's asylum procedure must be carried out in the first country of arrival. 
+
+The Dublin claim ends after 18 months. So if somebody is capable of staying under the radar for 18 months, then he/ she can request asylum in the Netherlands.
+
+It is very hard for people with a Dublin Claim to get support. For example often local shelter programs do not provide shelter to people with a Dublin claim.|Q: Where can I find information about the programs of the Red Cross for Undocumented Migrants? A: As Red Cross we provide workshops to UM about health care, working rights, healthy habits, clear communication and first aid. We also have a [website](https://helpfulinformation.redcross.nl) with information about local aid organizations and we help people through our WhatsApp Helpline. Besides that people that are UM can also be in our food program or shelter program. This is always through the connection with a partner organization. For more information on our programs, you can have a look at our website: https://www.rodekruis.nl/wat-doen-wij/hulp-in-nederland/ondersteuning-ongedocumenteerde-migranten/|Q: Where can I find information about the shelter rights for Undocumented Migrants? A: You can find information about different shelter rights on the website of Stichting Los: https://www.stichtinglos.nl/content/opvang-en-onderdak
+
+In general people have the right to rent a house, but not from social corperate housing. There is no general right for shelter for people who are undocumented and most homeless shelters refuse people without residence permit. This means that housing is a very big challenge for people that are undocumented.
+
+In some cities there are BBB (Bed, Bad, Brood) shelters for undocumeted migrants or municipality shelter programs for undocumented migrants. They often work with criteria, for example that they have a rejected asylum request and that there is a perspective on a new asylum request. You can find information on this on helpful information https://helpfulinformation.redcross.nl/ or on the website of LOS: https://www.stichtinglos.nl/noodopvang|Q: What is our role on the helpdesk with regard to shelter questions from UM? A: What is our role on the helpdesk with regard to shelter questions from UM? 
+The Red Cross doesn’t have shelters ourselves. Therefore we cannot always help somebody. The Red Cross 
+does have a shelter program, but this is only for 10 days and when there is a partner organization involved. 
+Our goal on the helpdesk is to get a good understanding of the situation in order to: 
+• make a right referral, to a local support organization or to the district so they can help somebody further with support and advice. 
+• is known with day shelters (if he doesn’t know them yet).|Q: What does LVV stand for? A: LVV stands for Landelijke Vreemdelingen Voorziening. The LVV program was a government / municipality program where people who were rejected for asylum could get a place in a 24-hour shelter for a maximum of 18 months. If they were admitted to the program, they would have access to 24hour shelter, an allowance, professional guidance and different activities.
+
+Social workers supported them to find a solution to their situation: a residence permit, migrating to another country or returning to their home country.
+
+The Dutch government decided to end the finance for the LVV from 2025 onwards. For 2025 the cities Amsterdam, Utrecht, Eindhoven and Groningen have decided to continue the shelter program for Undocumented Migrants without the finance of the national government. Only Rotterdam decided to stop. Information on how to access the local municipality programs can be found on HIA.|Q: What does BBB stand for A: BBB stands for Bed, Bad, Brood. The local shelter locations for undocumented migrants are often called like this. Throughout the country there are several BBB's. You can find them on this website: https://www.stichtinglos.nl/noodopvang 
+
+Often they are full or they work with stricked criteria, such as a legal perspective on a new asylum request. So never just send somebody to these locations, but check with the local organization or with the TC.|Q: How can people enter a BBB / municipality shelter program? 
+ A: How can people enter a BBB / municipality shelter program?
+Not everybody can access the municipality shelter programs or BBB's. There are certain criteria. For example people need to have asked asylum in the past. And people with a Dublin claim can often not enter the local shelter programs. In order to get access to the shelter, people should go to one of the screening locations or get into contact with the BBB's. They they can get more information, share their story and perhaps be admitted in the program.
+
+Information on the local possibilities can be found on Helpful Information and on https://www.stichtinglos.nl/noodopvang. Never send somebody directly to a BBB, but always check first with TC.",
+"If undocumented people suddenly needed urgent care and legal help, what steps could they take?",,"Undocumented people have the right to legal assistance and urgent medical care. For urgent care, they can contact a doctor or go to a hospital; for legal help, they can visit a Juridisch Loket (legal help desk) or organizations like VluchtelingenWerk, ASKV Refugee Support, or Stek. More information and contacts can be found at https://helpfulinformation.redcross.nl/.","Q: Where can I go when I am pregnant? A: People who are undocumented have the right to see a midwife after they are pregnant for three months. Women who are pregnant also have the right to get shelter for the period of 6 weeks before the birth and 6 weeks after the birth. For a midwife, somebody doesn’t have to first see a doctor. So they can contact a midwife directly.
+
+For an overview of where to go when you are pregnant, please see HIA (Pregnancy & Sexual Health): https://helpfulinformation.redcross.nl/ 
+
+For more information about pregnancy in 13 different languages, see:
+https://www.zanzu.de/nl/gezinsplanning-en-zwangerschap/|Q: Where can I go when I want to get an abortion? A: If your pregnancy wasn’t planned and you’re considering your options, abortion is a possibility. How abortion can be carried out depends on how far you are in the pregnancy. The costs are usually not reimbursed but there are options for you if you are unable to pay for it yourself. Please check HIA for more information (women) - https://helpfulinformation.redcross.nl/ |Q: Where can I go for physiotherapy? A: Since physiotherapy is in not in the basic health insurence, it is not compensated. This means somebody has to pay for it themselves. Somethimes special organizations can help. 
+
+For an overview of where to find a physiotherapist and which special organizations can help with payment, please see HIA: https://helpfulinformation.redcross.nl/ 
+|Q: Where can I go for information about or help with HIV, STD and birth control? A: For an overview of where to go to get more information or help with HIV, STD or birthcontrol, please see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/ 
+
+For more information about relationships, sexual health and pregnancy in 13 languages, see: https://www.zanzu.nl/nl/taalkeuze|Q: Where can I get medication? A: In case a PA needs medicine, they need a recipe from the doctor. So first check if the person has this. In case the person has a prescription, they can go to a pharmacy that has a contract with the CAK. They have to pay €5,- for the medicine.
+
+Check which pharmacies are contracted with the CAK. You can find the list here: https://www.hetcak.nl/zakelijk/onverzekerbare-vreemdelingen/overige-informatie/#item_15340 
+
+Please see HIA for an overview of the listed pharmacies per city: https://helpfulinformation.redcross.nl/ (health & wellbeing - medication)|Q: How can I get a repeat prescription? A: If somebody needs a repeat prescription, but doesn’t have the prescription anymore or used to get it in their home country, it can help to contact a contracted pharmacy directly to discuss this with them. Maybe they are willing to give it or they know a doctor where this person can go to. 
+
+You can find the list of pharmacies contracted with the CAK here: https://www.hetcak.nl/zakelijk/onverzekerbare-vreemdelingen/overige-informatie/#item_15340|Q: Where can I go to for psychosocial support? A: For an overview of where to go for psychosocial support, please see HIA (Mental Wellbeing): https://helpfulinformation.redcross.nl/ 
+
+In addition, you can send them this folder about mental wellbeing (it's available in multiple languages): https://www.pharos.nl/kennisbank/als-je-stress-hebt-veel-denkt-en-slecht-slaapt-engels/
+
+**IMPORTANT** In general when somebody is saying that he feels depressed, it is important that the PA receives good help from us. It can be important that they are helped by only one person and don’t get answers from different helpdesk agents. When you have the feeling that somebody is not feeling well, inform the Team Captain or piket about it, to see if she should take over the case.|Q: Do people have the right to get legal assistance? A: Everyone has the right to legal assistance, including people without a residence permit. A Juridisch Loket (legal help desk) can help with legal issues. Some cities have legal aid centres that provide assistance. Other relief organisations, such as VluchtelingenWerk (the Dutch Refugee Council), ASKV Refugee Support and Stek, also help people without residence permits.|Q: Where can somebody go if they want to request asylum for the first time? A: People that are looking for asylum can best go to VluchtelingenWerk for advice. VluchtelingenWerk also has a 
+website where people can get information or get into contact with VluchtelingenWerk: www.refugeehelp.nl|Q: Who can help someone who has been rejected for asylum, but wants to try it again? A: People that have a negative decision on their asylum, might be able to get juridical help and in some cases temporary shelter. It is good to check with them what kind of help they already received, and where they are staying. In most cities there are organizations that can give juridical advice to people that are undocumented (and received a negative decision).
+You can find information about this on HIA: https://helpfulinformation.redcross.nl/. In case there is no specialized organization close by, then it is best to send them to VluchtelingenWerk.",
+"Where can undocumented persons access psychosocial support and legal aid, including multilingual resources?",,"Undocumented persons can access psychosocial support and legal aid through several resources:
+
+- For psychosocial support, see HIA (Mental Wellbeing): https://helpfulinformation.redcross.nl/  
+  Multilingual information about mental wellbeing is available here: https://www.pharos.nl/kennisbank/als-je-stress-hebt-veel-denkt-en-slecht-slaapt-engels/
+
+- For legal aid, everyone has the right to legal assistance, including undocumented people. The Juridisch Loket (legal help desk), VluchtelingenWerk, ASKV Refugee Support, and Stek can help. More information is available at: https://helpfulinformation.redcross.nl/
+
+- For information about relationships, sexual health, and pregnancy in 13 languages, see: https://www.zanzu.nl/nl/taalkeuze","Q: Where can I go when I am pregnant? A: People who are undocumented have the right to see a midwife after they are pregnant for three months. Women who are pregnant also have the right to get shelter for the period of 6 weeks before the birth and 6 weeks after the birth. For a midwife, somebody doesn’t have to first see a doctor. So they can contact a midwife directly.
+
+For an overview of where to go when you are pregnant, please see HIA (Pregnancy & Sexual Health): https://helpfulinformation.redcross.nl/ 
+
+For more information about pregnancy in 13 different languages, see:
+https://www.zanzu.de/nl/gezinsplanning-en-zwangerschap/|Q: Where can I go when I want to get an abortion? A: If your pregnancy wasn’t planned and you’re considering your options, abortion is a possibility. How abortion can be carried out depends on how far you are in the pregnancy. The costs are usually not reimbursed but there are options for you if you are unable to pay for it yourself. Please check HIA for more information (women) - https://helpfulinformation.redcross.nl/ |Q: Where can I go for physiotherapy? A: Since physiotherapy is in not in the basic health insurence, it is not compensated. This means somebody has to pay for it themselves. Somethimes special organizations can help. 
+
+For an overview of where to find a physiotherapist and which special organizations can help with payment, please see HIA: https://helpfulinformation.redcross.nl/ 
+|Q: Where can I go for information about or help with HIV, STD and birth control? A: For an overview of where to go to get more information or help with HIV, STD or birthcontrol, please see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/ 
+
+For more information about relationships, sexual health and pregnancy in 13 languages, see: https://www.zanzu.nl/nl/taalkeuze|Q: Where can I get medication? A: In case a PA needs medicine, they need a recipe from the doctor. So first check if the person has this. In case the person has a prescription, they can go to a pharmacy that has a contract with the CAK. They have to pay €5,- for the medicine.
+
+Check which pharmacies are contracted with the CAK. You can find the list here: https://www.hetcak.nl/zakelijk/onverzekerbare-vreemdelingen/overige-informatie/#item_15340 
+
+Please see HIA for an overview of the listed pharmacies per city: https://helpfulinformation.redcross.nl/ (health & wellbeing - medication)|Q: How can I get a repeat prescription? A: If somebody needs a repeat prescription, but doesn’t have the prescription anymore or used to get it in their home country, it can help to contact a contracted pharmacy directly to discuss this with them. Maybe they are willing to give it or they know a doctor where this person can go to. 
+
+You can find the list of pharmacies contracted with the CAK here: https://www.hetcak.nl/zakelijk/onverzekerbare-vreemdelingen/overige-informatie/#item_15340|Q: Where can I go to for psychosocial support? A: For an overview of where to go for psychosocial support, please see HIA (Mental Wellbeing): https://helpfulinformation.redcross.nl/ 
+
+In addition, you can send them this folder about mental wellbeing (it's available in multiple languages): https://www.pharos.nl/kennisbank/als-je-stress-hebt-veel-denkt-en-slecht-slaapt-engels/
+
+**IMPORTANT** In general when somebody is saying that he feels depressed, it is important that the PA receives good help from us. It can be important that they are helped by only one person and don’t get answers from different helpdesk agents. When you have the feeling that somebody is not feeling well, inform the Team Captain or piket about it, to see if she should take over the case.|Q: Do people have the right to get legal assistance? A: Everyone has the right to legal assistance, including people without a residence permit. A Juridisch Loket (legal help desk) can help with legal issues. Some cities have legal aid centres that provide assistance. Other relief organisations, such as VluchtelingenWerk (the Dutch Refugee Council), ASKV Refugee Support and Stek, also help people without residence permits.|Q: Where can somebody go if they want to request asylum for the first time? A: People that are looking for asylum can best go to VluchtelingenWerk for advice. VluchtelingenWerk also has a 
+website where people can get information or get into contact with VluchtelingenWerk: www.refugeehelp.nl|Q: Who can help someone who has been rejected for asylum, but wants to try it again? A: People that have a negative decision on their asylum, might be able to get juridical help and in some cases temporary shelter. It is good to check with them what kind of help they already received, and where they are staying. In most cities there are organizations that can give juridical advice to people that are undocumented (and received a negative decision).
+You can find information about this on HIA: https://helpfulinformation.redcross.nl/. In case there is no specialized organization close by, then it is best to send them to VluchtelingenWerk.",
+"Does the Red Cross provide clothing directly to individuals, and how are referrals handled based on location?",,"The Red Cross does not provide clothing directly to individuals; clothing is only supplied to shelter locations. For individuals seeking clothing, the Red Cross refers them to local options found on HIA or through online searches, ensuring referrals are based on the person's location. You can find city-specific options on HIA: https://helpfulinformation.redcross.nl/","Q: Does the Red Cross provide clothing? A: We don't provide clohting to individuals, only to shelter locations. Therefore, we cannot help somebody on our helpline directly, but we can only refer them to options that are found on HIA or by googling. Always check where somebody lives so you can give them the option most closeby. Find a list of options per city on HIA: https://helpfulinformation.redcross.nl/ |Q: Can I donate clothing to the Red Cross? A: The Red Cross cooperates with Sympany for collection of clothing donations and repurposing them. Via this link you can find the closest donationcontainer: https://www.sympany.nl/",
+Describe the process for donating clothing and how Red Cross collaborates with Sympany containers.,,"To donate clothing, you can use the collection containers provided by Sympany, with whom the Red Cross collaborates for clothing donations and repurposing. Simply find your nearest Sympany donation container using this link: https://www.sympany.nl/. Place your clothing donations in the container, and Sympany will handle the collection and repurposing process in cooperation with the Red Cross.","Q: Does the Red Cross provide clothing? A: We don't provide clohting to individuals, only to shelter locations. Therefore, we cannot help somebody on our helpline directly, but we can only refer them to options that are found on HIA or by googling. Always check where somebody lives so you can give them the option most closeby. Find a list of options per city on HIA: https://helpfulinformation.redcross.nl/ |Q: Can I donate clothing to the Red Cross? A: The Red Cross cooperates with Sympany for collection of clothing donations and repurposing them. Via this link you can find the closest donationcontainer: https://www.sympany.nl/",
+"Which specific support services—info provision, digital food/hygiene aid, transport, volunteer guidance—does Red Cross Amsterdam-Amstelland offer?",,"Red Cross Amsterdam-Amstelland offers the following support services:
+- Information provision and referral to partners
+- Digital food and hygiene support (for a maximum of 3 months)
+- Transport cost assistance (for a maximum of 3 months)
+- Guidance by Red Cross volunteers (e.g., to medical appointments, explaining situations)
+- Access to the Emergency Request fund for (partial) reimbursement of medical devices","Q: What can the Red Cross Amsterdam do? A: ## Red Cross Amsterdam-Amstelland can help with: 
+• Information provision and referral to partners
+• Digital food and hygiene support (maximum 3 months)
+• Transport costs (maximum 3 months)
+• Guidance by Red Cross volunteers (to medical appointments, explaining the situation clearly)
+• Access Emergency Request fund for (partial) reimbursement of medical devices
+
+!! They **cannot** help with:
+• Guidance by volunteers must be possible; We therefore do not support clients with addiction problems or serious psychological problems.
+• Urgent assistance requests for which assistance must be provided within 24 hours,
+• Providing medicines or medical assistance
+
+**For help from Red Cross Amsterdam-Amstelland, send an e-mail to: heretohelp.amsterdam@rodekruis.nl**
+|Q: Where can I find a doctor? A: For an overview of where to find a doctor, please see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/|Q: What is better, sending somebody to a specialized organization or to a doctor? A: In general it is the best if people are known with a GP, because they can then visit the doctor more often. However, what is best to do, depends also on the situation of the person, and for example if somebody has a fixed address (better if they find a doctor) or somebody is on the street (better to go to a specialized organization). Often it is quicker to get somebody into contact with a specialized organization. This organization can then try to find a doctor for this person. Often they have a network of friendly doctors, who are more willing to receive people that are undocumented. 
+
+In case somebody is in a city where there are specialized organizations, then it is good to give the PA the option to go to a huisarts (and if needed, our help to contact the huisarts) but that there are also specialized organizations that can help. 
+
+**See below an example of a message that you can send:**
+*You have the right to visit a family doctor, so you can always contact doctors close by to you. But there are also organizations that are specialized in providing medical help to people without health insurance. 
+The benefits of contacting a doctor are that you can get structural help there. This is especially good if you have a fixed place where you are staying. However, sometimes it can teake a bit longer before there is a doctor that 
+can receive you, because many doctors don’t take in new patients. 
+The benefits of [ name organisation] is that they are specialized in helping people without health insurance. You can go there quickly to discuss your issue. But if you need structural help, they will also have to find you a doctor. Do you have a preference?*
+|Q: What if someone needs a doctor in a city without specialized support organization? A: It can sometimes take a long time before we can help somebody to get the help from a doctor. However this is somebodies right. Therefore we do try this, but in case it is taken too long, then we connect somebody with a 
+specialized organization: 
+• Check if somebody can call with a doctor, or has somebody in their network; give the address of 
+doctors close by
+• In case he cannot call; contact your TC to check if there is an option that we can call as the Red Cross
+• Keep track of the doctors that you call in ‘conversation summery’ 
+• If after 5 doctors it didn’t work, call with the specialized organization that is most close by to see if he can go there
+• If we need to reimburse travel costs; check with Team Captain if we can do this. 
+• You can always send them the letter with information about CAK (you can find this letter here: https://helpfulinformation.redcross.nl/files/Brief-zorgverlening-ongedocumenteerde-migranten-landelijk.pdf |Q: What if someone needs urgent medical support after office hours/ during weekends? A: Ask him to call with huisartsenpost. In case he cannot do this: 
+• Ask him his date of birth and to explain to you the symptoms. Tell him to stay on WA to answer 
+questions from the Huisartsenpost and to pick up the phone in case he is called 
+• Discuss with your TC if it is possible to call the huisartsenpost and discuss with them. Often they will ask to call in the patient, so then you can add the PA to the call. 
+• In case you face difficulties; you can always call with piket to take over the case from you. 
+|Q: I am afraid the doctor will send me away/ the doctor send me away A: Everyone in the Netherlands has the right to see a doctor., also if you don't have residence papers or health insurance. Clearly explain to PA what his/her rights are and that the doctor has to see him/her. Since they don't have health insurance, the costs are reimbursed by the CAK. Sometimes doctors don’t know about this. Therefore the Red Cross has developed a letter with information. In case somebody is scared to go to the doctor, then you can give them this letter, which they can show to the doctor. You can find this letter here: https://helpfulinformation.redcross.nl/files/Brief-zorgverlening-ongedocumenteerde-migranten-landelijk.pdf |Q: Can I go to the ermergency post at the hospital? A: Yes, and if it is an emergency they have the legal duty to help you. They can reimburse the costs for 80% at the CAK. 
+|Q: Can I go to every hospital and where can I find the hospital? A: For all other help besides emergency care, you can best go to hospital that have a contract with the CAK. You can find here which hospitals have a contract with the CAK: https://www.hetcak.nl/zakelijk/onverzekerbare-vreemdelingen/overige-informatie/#item_15341 |Q: Where can I go to a dentist? A: You can always visit a dentist, but for people older then 18 the costs are not reimbursed. This means you will often have to pay for yourself. Sometimes there is a free dental service once in a while, for example in bigger cities. 
+
+For an overview of where to find a dentist, please see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/ |Q: Are there organizations that can help with dental care? A: Some health care organizations that are specialized in helping UM, can also help with dentists care. See the information on HIA: https://helpfulinformation.redcross.nl/. Not all organizations want to be on HIA. For example Doctors of the World prefers not to have the information public, but they can help sometimes. So you can direct people to them when they need dental care, but good to not make any promises. ",
+Where can I find a doctor in Amsterdam if I am uninsured and need structural medical help?,,"If you are uninsured and need structural medical help in Amsterdam, you have the right to visit a family doctor (huisarts). You can contact doctors close to you, but there are also specialized organizations that help people without health insurance. For an overview of where to find a doctor, see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/. If you have a fixed address, it is best to find a doctor. If you are on the street, specialized organizations can help you more quickly and may have a network of doctors willing to help undocumented people.","Q: What can the Red Cross Amsterdam do? A: ## Red Cross Amsterdam-Amstelland can help with: 
+• Information provision and referral to partners
+• Digital food and hygiene support (maximum 3 months)
+• Transport costs (maximum 3 months)
+• Guidance by Red Cross volunteers (to medical appointments, explaining the situation clearly)
+• Access Emergency Request fund for (partial) reimbursement of medical devices
+
+!! They **cannot** help with:
+• Guidance by volunteers must be possible; We therefore do not support clients with addiction problems or serious psychological problems.
+• Urgent assistance requests for which assistance must be provided within 24 hours,
+• Providing medicines or medical assistance
+
+**For help from Red Cross Amsterdam-Amstelland, send an e-mail to: heretohelp.amsterdam@rodekruis.nl**
+|Q: Where can I find a doctor? A: For an overview of where to find a doctor, please see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/|Q: What is better, sending somebody to a specialized organization or to a doctor? A: In general it is the best if people are known with a GP, because they can then visit the doctor more often. However, what is best to do, depends also on the situation of the person, and for example if somebody has a fixed address (better if they find a doctor) or somebody is on the street (better to go to a specialized organization). Often it is quicker to get somebody into contact with a specialized organization. This organization can then try to find a doctor for this person. Often they have a network of friendly doctors, who are more willing to receive people that are undocumented. 
+
+In case somebody is in a city where there are specialized organizations, then it is good to give the PA the option to go to a huisarts (and if needed, our help to contact the huisarts) but that there are also specialized organizations that can help. 
+
+**See below an example of a message that you can send:**
+*You have the right to visit a family doctor, so you can always contact doctors close by to you. But there are also organizations that are specialized in providing medical help to people without health insurance. 
+The benefits of contacting a doctor are that you can get structural help there. This is especially good if you have a fixed place where you are staying. However, sometimes it can teake a bit longer before there is a doctor that 
+can receive you, because many doctors don’t take in new patients. 
+The benefits of [ name organisation] is that they are specialized in helping people without health insurance. You can go there quickly to discuss your issue. But if you need structural help, they will also have to find you a doctor. Do you have a preference?*
+|Q: What if someone needs a doctor in a city without specialized support organization? A: It can sometimes take a long time before we can help somebody to get the help from a doctor. However this is somebodies right. Therefore we do try this, but in case it is taken too long, then we connect somebody with a 
+specialized organization: 
+• Check if somebody can call with a doctor, or has somebody in their network; give the address of 
+doctors close by
+• In case he cannot call; contact your TC to check if there is an option that we can call as the Red Cross
+• Keep track of the doctors that you call in ‘conversation summery’ 
+• If after 5 doctors it didn’t work, call with the specialized organization that is most close by to see if he can go there
+• If we need to reimburse travel costs; check with Team Captain if we can do this. 
+• You can always send them the letter with information about CAK (you can find this letter here: https://helpfulinformation.redcross.nl/files/Brief-zorgverlening-ongedocumenteerde-migranten-landelijk.pdf |Q: What if someone needs urgent medical support after office hours/ during weekends? A: Ask him to call with huisartsenpost. In case he cannot do this: 
+• Ask him his date of birth and to explain to you the symptoms. Tell him to stay on WA to answer 
+questions from the Huisartsenpost and to pick up the phone in case he is called 
+• Discuss with your TC if it is possible to call the huisartsenpost and discuss with them. Often they will ask to call in the patient, so then you can add the PA to the call. 
+• In case you face difficulties; you can always call with piket to take over the case from you. 
+|Q: I am afraid the doctor will send me away/ the doctor send me away A: Everyone in the Netherlands has the right to see a doctor., also if you don't have residence papers or health insurance. Clearly explain to PA what his/her rights are and that the doctor has to see him/her. Since they don't have health insurance, the costs are reimbursed by the CAK. Sometimes doctors don’t know about this. Therefore the Red Cross has developed a letter with information. In case somebody is scared to go to the doctor, then you can give them this letter, which they can show to the doctor. You can find this letter here: https://helpfulinformation.redcross.nl/files/Brief-zorgverlening-ongedocumenteerde-migranten-landelijk.pdf |Q: Can I go to the ermergency post at the hospital? A: Yes, and if it is an emergency they have the legal duty to help you. They can reimburse the costs for 80% at the CAK. 
+|Q: Can I go to every hospital and where can I find the hospital? A: For all other help besides emergency care, you can best go to hospital that have a contract with the CAK. You can find here which hospitals have a contract with the CAK: https://www.hetcak.nl/zakelijk/onverzekerbare-vreemdelingen/overige-informatie/#item_15341 |Q: Where can I go to a dentist? A: You can always visit a dentist, but for people older then 18 the costs are not reimbursed. This means you will often have to pay for yourself. Sometimes there is a free dental service once in a while, for example in bigger cities. 
+
+For an overview of where to find a dentist, please see HIA (Health & Wellbeing): https://helpfulinformation.redcross.nl/ |Q: Are there organizations that can help with dental care? A: Some health care organizations that are specialized in helping UM, can also help with dentists care. See the information on HIA: https://helpfulinformation.redcross.nl/. Not all organizations want to be on HIA. For example Doctors of the World prefers not to have the information public, but they can help sometimes. So you can direct people to them when they need dental care, but good to not make any promises. ",
+"Can undocumented migrants in NL report crimes to police w/o immediate deportation, even if no passport?",,"Yes, undocumented migrants in the Netherlands have the right to report a crime to the police without being deported immediately, even if they do not have a passport. The police are obliged to handle every report. However, since the police also have the task of deporting undocumented migrants, it is advisable to make an appointment with the police together with an aid worker to avoid misunderstandings or unjustified deportation.","Q: What are important support organizations for returning back to country of origin? A: There are different organizations that can help with return back to country of origin. You can find information about this on HIA: https://helpfulinformation.redcross.nl/|Q: What can the Red Cross do? A: The Red Cross does not provide legal support. We can only refer people to the right organizations that have more knowledge about the legal procedures.|Q: Which other organizations can be helpful? A: People can also contact the helpdesk of Stichting LOS if they want juridical advise: https://www.stichtinglos.nl/content/contact . For questions that have nothing to do with their residence permit / legal stay, they can also go to a Juridisch Loket: https://www.juridischloket.nl/contact/. |Q: Can I contact the police? A: Even without a residence permit or passport, you have the right to report a crime in the Netherlands without being deported immediately. If you are the victim of a crime in the Netherlands, you can always report it. The police are obliged to deal with every report.
+
+**For internal use only:** Make sure that you stress that PA has the right to go to the police without being deported. Sometimes people don't know this, while they are a vulnerable group that can be a victim of crime more easily.
+
+**Please note: the police also have the task of deporting undocumented migrants. Therefore, it is advisable for undocumented migrants to make an appointment with the police together with an aid worker. This is to avoid misunderstandings or unjustified deportation.**|Q: What does human trafficking entail? A: Human traffickers take advantage of the dependency of undocumented migrants. They are a vulnerable target group. Their lack of knowledge about their rights, precautions and available assistance makes them particularly vulnerable. Victims of human trafficking have often experienced degrading living and/or working conditions and a loss of control over their lives. This often leads to long-term psychological and physical problems.|Q: How can you spot human trafficking? A: * If people are forced to work in unsafe conditions, are paid far too little, or have to work extremely long hours, then this is exploitation.
+* If exploitation is accompanied by coercion or is a result of deception, it may also be a case of human trafficking.
+* Even if you do not have a residence permit or passport, you have rights in the Netherlands. You have the right to a fair wage and to file a report with the police if you are getting exploited.|Q: Who to contact if you think somebody is victim of Human trafficking? A: In case you think somebody is victim of human trafficking, then always discuss the case with piket or with your Team Captain.|Q: I have work problems (for example, I am not payed, I am not treated well) A: Also when people are undocumented, they still have work rights. 
+
+For questions about labour rights you can share the flyer 'Know your rights when you work' with the person affected:
+- [English](https://www.comensha.nl/media/rtbj5ggv/2026-know-your-rights-flyer-geen-verblijfsstatus-eng.pdf) 
+- [Dutch](https://www.comensha.nl/media/lwvbm1sm/2026-know-your-rights-flyer-geen-verblijfsstatus-nl.pdf) 
+- [Arabic](https://www.comensha.nl/media/y52f42oz/2026-know-your-rights-flyer-geen-verblijfsstatus-ar.pdf) 
+- [Portuguese](https://www.comensha.nl/media/igqeeotx/2026-know-your-rights-flyer-geen-verblijfsstatus-po.pdf) 
+- [French](https://www.comensha.nl/media/g5zl4y2t/2026-know-your-rights-flyer-geen-verblijfsstatus-fr.pdf) 
+- [Spanish](https://www.comensha.nl/media/obpfh0nt/2026-know-your-rights-flyer-geen-verblijfsstatus-esp.pdf) 
+- [Indonesian](https://www.comensha.nl/media/hablxzvb/2026-know-your-rights-flyer-geen-verblijfsstatus-bahasa.pdf) 
+- [Tagalog](https://www.comensha.nl/media/skdj3gdb/2026-know-your-rights-flyer-geen-verblijfsstatus-tag.pdf)
+
+An important organization that can help when people are mistreated is FairWork.FairWork is specialized in helping people who have problems at work and/or people who are affected by labour exploitation or human trafficking. If the PA shows signs of labour exploitation/human trafficking, you can ask the following questions:
+
+- Can you tell me more about your work environment?
+- Are the work conditions as you expected?
+- Do you feel safe at work?
+- Does your employer treat you badly?
+- Are you being forced to do work against your will?
+
+1. If the situation **does not seem urgent:** Send the contact information of FairWork as well as the flyer below. 
+2. If the situation is serious and **needs a follow up:** You can make a warm referral: ask for permission to share the phone number of the PA with FairWork, so that the organisation can reach out to the PA directly. Explain to the PA what FairWork does and that someone from the organisation will reach out to them in the following days. If they give approval, contact your TC and explain the situation. They can contact FairWork.
+3. If the situation **needs immediate attention:** Inform the TC and they will call FairWork themselves to request help for the PA immediately.
+
+https://www.fairwork.nu/en/homepage/ 
+Phone: +31 20 760 08 09
+|Q: What can I do if I want to do volunteer work? A: Also volunteer work is complicated when somebody is undocumented. The Red Cross doesn’t provide this service in general for people that are undocumented (for example becoming a Ready 2 Helper is not possible), but sometimes districts can have ideas, especially when they are more familiar with giving support to people that are undocumented. Therefore, first check what kind of volunteer work somebody is looking for. See if there is information on HIA under the category 'Activities'. If not, send somebody to day shelters, because there they work with volunteers or can advise somebody. Or you can also check with a district if they have ideas. 
+
+Example of a message:
+
+*It is really great that you want to do volunteer work. Unfortunately the Red Cross cannot work with volunteers without BSN. I am sorry about that. But I can think with you about what options there are. Can you therefore tell me a bit more about the work you would like to do? And where you are staying?*|Q: Do childeren that are UM have the right to get education? A: Children are even required to attend school until the age of 18! Children aged 5 to 18 must go to school until they have achieved a basic qualification (havo, vwo or mbo diploma level 2 or higher [Dutch school certificates]). Even if your child does not have a residence permit, they are still required to attend school. Children can register at all schools. Public schools are not allowed to refuse them. Special schools (such as Christian or Islamic schools) can. School education is free. In some cities, the Leergeld foundation (https://www.leergeld.nl/) provides assistance in paying for tutoring, laptops and school trips.",
+How do FairWork and the police differ in supporting victims of work exploitation or human trafficking?,,"FairWork specializes in helping people with work problems, labour exploitation, or human trafficking by offering advice, support, and referrals. They can provide information, help assess the situation, and connect victims to further assistance. The police, on the other hand, are responsible for investigating crimes and can take official reports, including from undocumented migrants, without deporting them immediately. However, since the police also have a role in deporting undocumented migrants, it is advised to go to the police together with an aid worker to avoid misunderstandings. In summary, FairWork offers support and guidance, while the police handle the legal investigation and reporting of crimes.","Q: What are important support organizations for returning back to country of origin? A: There are different organizations that can help with return back to country of origin. You can find information about this on HIA: https://helpfulinformation.redcross.nl/|Q: What can the Red Cross do? A: The Red Cross does not provide legal support. We can only refer people to the right organizations that have more knowledge about the legal procedures.|Q: Which other organizations can be helpful? A: People can also contact the helpdesk of Stichting LOS if they want juridical advise: https://www.stichtinglos.nl/content/contact . For questions that have nothing to do with their residence permit / legal stay, they can also go to a Juridisch Loket: https://www.juridischloket.nl/contact/. |Q: Can I contact the police? A: Even without a residence permit or passport, you have the right to report a crime in the Netherlands without being deported immediately. If you are the victim of a crime in the Netherlands, you can always report it. The police are obliged to deal with every report.
+
+**For internal use only:** Make sure that you stress that PA has the right to go to the police without being deported. Sometimes people don't know this, while they are a vulnerable group that can be a victim of crime more easily.
+
+**Please note: the police also have the task of deporting undocumented migrants. Therefore, it is advisable for undocumented migrants to make an appointment with the police together with an aid worker. This is to avoid misunderstandings or unjustified deportation.**|Q: What does human trafficking entail? A: Human traffickers take advantage of the dependency of undocumented migrants. They are a vulnerable target group. Their lack of knowledge about their rights, precautions and available assistance makes them particularly vulnerable. Victims of human trafficking have often experienced degrading living and/or working conditions and a loss of control over their lives. This often leads to long-term psychological and physical problems.|Q: How can you spot human trafficking? A: * If people are forced to work in unsafe conditions, are paid far too little, or have to work extremely long hours, then this is exploitation.
+* If exploitation is accompanied by coercion or is a result of deception, it may also be a case of human trafficking.
+* Even if you do not have a residence permit or passport, you have rights in the Netherlands. You have the right to a fair wage and to file a report with the police if you are getting exploited.|Q: Who to contact if you think somebody is victim of Human trafficking? A: In case you think somebody is victim of human trafficking, then always discuss the case with piket or with your Team Captain.|Q: I have work problems (for example, I am not payed, I am not treated well) A: Also when people are undocumented, they still have work rights. 
+
+For questions about labour rights you can share the flyer 'Know your rights when you work' with the person affected:
+- [English](https://www.comensha.nl/media/rtbj5ggv/2026-know-your-rights-flyer-geen-verblijfsstatus-eng.pdf) 
+- [Dutch](https://www.comensha.nl/media/lwvbm1sm/2026-know-your-rights-flyer-geen-verblijfsstatus-nl.pdf) 
+- [Arabic](https://www.comensha.nl/media/y52f42oz/2026-know-your-rights-flyer-geen-verblijfsstatus-ar.pdf) 
+- [Portuguese](https://www.comensha.nl/media/igqeeotx/2026-know-your-rights-flyer-geen-verblijfsstatus-po.pdf) 
+- [French](https://www.comensha.nl/media/g5zl4y2t/2026-know-your-rights-flyer-geen-verblijfsstatus-fr.pdf) 
+- [Spanish](https://www.comensha.nl/media/obpfh0nt/2026-know-your-rights-flyer-geen-verblijfsstatus-esp.pdf) 
+- [Indonesian](https://www.comensha.nl/media/hablxzvb/2026-know-your-rights-flyer-geen-verblijfsstatus-bahasa.pdf) 
+- [Tagalog](https://www.comensha.nl/media/skdj3gdb/2026-know-your-rights-flyer-geen-verblijfsstatus-tag.pdf)
+
+An important organization that can help when people are mistreated is FairWork.FairWork is specialized in helping people who have problems at work and/or people who are affected by labour exploitation or human trafficking. If the PA shows signs of labour exploitation/human trafficking, you can ask the following questions:
+
+- Can you tell me more about your work environment?
+- Are the work conditions as you expected?
+- Do you feel safe at work?
+- Does your employer treat you badly?
+- Are you being forced to do work against your will?
+
+1. If the situation **does not seem urgent:** Send the contact information of FairWork as well as the flyer below. 
+2. If the situation is serious and **needs a follow up:** You can make a warm referral: ask for permission to share the phone number of the PA with FairWork, so that the organisation can reach out to the PA directly. Explain to the PA what FairWork does and that someone from the organisation will reach out to them in the following days. If they give approval, contact your TC and explain the situation. They can contact FairWork.
+3. If the situation **needs immediate attention:** Inform the TC and they will call FairWork themselves to request help for the PA immediately.
+
+https://www.fairwork.nu/en/homepage/ 
+Phone: +31 20 760 08 09
+|Q: What can I do if I want to do volunteer work? A: Also volunteer work is complicated when somebody is undocumented. The Red Cross doesn’t provide this service in general for people that are undocumented (for example becoming a Ready 2 Helper is not possible), but sometimes districts can have ideas, especially when they are more familiar with giving support to people that are undocumented. Therefore, first check what kind of volunteer work somebody is looking for. See if there is information on HIA under the category 'Activities'. If not, send somebody to day shelters, because there they work with volunteers or can advise somebody. Or you can also check with a district if they have ideas. 
+
+Example of a message:
+
+*It is really great that you want to do volunteer work. Unfortunately the Red Cross cannot work with volunteers without BSN. I am sorry about that. But I can think with you about what options there are. Can you therefore tell me a bit more about the work you would like to do? And where you are staying?*|Q: Do childeren that are UM have the right to get education? A: Children are even required to attend school until the age of 18! Children aged 5 to 18 must go to school until they have achieved a basic qualification (havo, vwo or mbo diploma level 2 or higher [Dutch school certificates]). Even if your child does not have a residence permit, they are still required to attend school. Children can register at all schools. Public schools are not allowed to refuse them. Special schools (such as Christian or Islamic schools) can. School education is free. In some cities, the Leergeld foundation (https://www.leergeld.nl/) provides assistance in paying for tutoring, laptops and school trips.",
+"Which websites list Amsterdam UM shelter options, and what info is available about BBB’s and screening?",,"You can find information about Amsterdam UM (undocumented migrants) shelter options on the Red Cross Helpful Information website: https://helpfulinformation.redcross.nl/ and on the LOS website: https://www.stichtinglos.nl/noodopvang. For BBB’s (Bed, Bath, Bread shelters) and screening, the websites provide details about available shelters, access conditions, and contact information. In Amsterdam, screening for shelter may be required; for Groningen, screening is done by Inlia (https://www.inlia.nl/nl).","Q: Where can I find more information about local shelter programs & BBB's? 
+ A: You can find information about the local shelter possibilities on the Red Cross website Helpful Information: https://helpfulinformation.redcross.nl/ or on the website of LOS: https://www.stichtinglos.nl/noodopvang
+
+In the following municipalities there is a shelter program for UM: 
+- Eindhoven
+- Utrecht
+- Groningen (not on HIA yet) - screening is done by Inlia https://www.inlia.nl/nl
+- AmsterdamWhere can I find more information about local shelter programs & BBB's? 
+
+You can find information about the local shelter possibilities on the Red Cross website Helpful Information: https://helpfulinformation.redcross.nl/ or on the website of LOS: https://www.stichtinglos.nl/noodopvang
+
+In the following municipalities there is a shelter program for UM: 
+- Eindhoven
+- Utrecht
+- Groningen (not on HIA yet) - screening is done by Inlia https://www.inlia.nl/nl
+- Amsterdam|Q: How do winter shelters function? A: There are two different types of winter shelter. You have the permanent winter shelter and the Cold Weather Regulation. The municipality can decide if they want to organize a permanent winter shelter and if this is accessible for undocumented migrants or not. They have the legal duty to organize the Cold Weather Regulation when temperatures go below 0 degrees as it becomes too dangerous to sleep outside. The Cold Weather Regulation can be opened in the period from the 1st of November until the 1st of April.
+Undocumented migrants always have access access to the Cold Weather Regulation, but not always to the permanent winter shelters. 
+
+Large cities (Amsterdam, Rotterdam, The Hague and Utrecht) coordinate the Cold Weather Regulation together. So they often open and close at the same time. 
+
+On the *Heplful Information website (HIA)*[https://helpfulinformation.redcross.nl/] you can find the opening times of the Cold Weather Regulation and winter shelters per city. |Q: Where can I find information about shelters for UM? A: On Helpful Information you can find information about local shelters for UM: https://helpfulinformation.redcross.nl/
+Also on the website of LOS you can find information: https://www.stichtinglos.nl/noodopvang
+|Q: Where can I find information about the medical rights of UM? 
+ A: You can find information on the website of Stichting Los: https://www.stichtinglos.nl/content/gezondheidszorg|Q: Do people have the right to see a family doctor? A: Yes, people always have the right to see a family doctor. The doctor can reimburse the costs with the CAK. 
+You can refer people to this website for information on how family doctors work in the Netherlands: 
+* https://gpinfo.nl/1-dutch-healthcare|Q: Reimbursement of medical costs. A: * Important: it is differently arranged per target group (e.g. asylum seekers, undocumented, EU migrants. You can find more information on the website of CAK: https://www.hetcak.nl/zakelijk/via-welke-regeling-declareren/ 
+• People who are undocumented have the right to receive all the necessary medical aid (medisch noodzakelijke zorg). This is care that is also in the basic health insurance. The costs are reimbursed by the CAK. you can always send the following letter to someone, they can show this letter to their doctor: https://helpfulinformation.redcross.nl/files/Brief-zorgverlening-ongedocumenteerde-migranten-landelijk.pdf 
+• Here you can see what is in the basic package: https://www.zorginstituutnederland.nl/Verzekerde+zorg/basispakket-zorgverzekeringswet-zvw
+
+What services can be reimbursed:
+* General practitioners and dentists (for oral care up to the age of 18) are reimbursed for 80% by the CAK if the undocumented patient cannot pay this themselves. The CAK expects the healthcare provider to first try to recover the costs from the patient without a residence permit. Asking for payment can deter migrants without a residence permit and therefore hinders treatment compliance.
+* You can only refer an undocumented patient to pharmacies, hospitals, Wlz and mental health care institutions with which the CAK has a contract. The list of contracted institutions changes regularly, for a current list visit Hetcak.nl/zakelijk/verzekeringen/onverzekerbare-vreemdelingen. 
+* Since 2014, there has been a personal contribution of 5 euros per medicine, unless delivery via a blister/baxter is prescribed.
+* Emergency care, by both contracted and non-contracted hospitals, is reimbursed for 80%.
+* Obstetric care is 100% reimbursed.
+* For long-term care (nursing home), AWBZ and GGZ institutions, only contracted institutions will be reimbursed for costs.
+* Dental care above the age of 18 is not reimbursed, nor are medications and aids that are not covered by the basic package or care via the WMO.
+|Q: What are important things to keep in mind? A: • You can ask for more details, but communicate why you are asking follow up questions
+• Make it clear that as the Red Cross we don’t provide medical services, we only reffer people. 
+• Let them try to contact a doctor themselves, or somobody in their network. Only if they are unable to 
+call themselves, you can do it. 
+• It can sometimes be quicker to find a doctor if they contact the doctor of their housemate / friend. 
+• In the evening / office hours; check urgency
+• Check if information is clear and if they can follow up. 
+|Q: Where can I find informational materials about healthcare in the Netherlands? A: Informational materials in multiple languages:
+https://ggdghor.nl/wp-content/uploads/2024/01/Overzicht-voorlichtingsmateriaal-in-diverse-talen-versie-2024.pdf
+
+Video's explaining the healthcare system in the Netherlands in multiple languages:
+* [English](https://www.youtube.com/watch?v=eCKtTKwnqDs&t=15s)
+* [Dutch](https://www.youtube.com/watch?v=TWGu2EDj7wk)
+* [Spanish](https://www.youtube.com/watch?v=r_xJpzV35yg)
+* [Portuguese](https://www.youtube.com/watch?v=r2XNJz2h3DQ)
+* [Farsi](https://www.youtube.com/watch?v=-RZfbTDm54k)
+* [French](https://www.youtube.com/watch?v=yUIzAnkyEtE)
+* [Arabic](https://www.youtube.com/watch?v=9Zy0PqoI51M)
+* [Chinese](https://www.youtube.com/watch?v=Q-b5b0UnPyY)|Q: What organizations help UM to get medical care? A: It can often be difficult for UM to get access to medical care, eventhough they have the right to get it. This is because of language barriers, or because doctors don't know about the rights of UM or because they are too busy to receive them. 
+
+Therefore, there are in all the bigger cities support organizations that can help UM with medical care directly (because voluntary doctors are working there) or getting them acces to health care because they have a network of doctors that are willing to help. You can find this information on HIA: https://helpfulinformation.redcross.nl/. 
+
+The main organization is Doctors of the World. They have health care busses or locations, and they also do a lot of lobby and providing information. They also have a national helpdesk (https://doktersvandewereld.org/need-help) that provides help with medical care for undocumented migrants, for example:
+* they can help UM find a GP close to them 
+* they can teach people how to make an appointment or make an appointment for them if they cannot do it themselves
+* they can help people get their medical bills reimbursed
+* they can provide information about the Dutch healthcare system
+
+Doctors of the World also provide medical care, dental care and psychological help themselves, for more information and offers in different cities see HIA.|Q: What can the Red Cross do? A: • We don’t have doctors ourselves! 
+• We only give referral information or try to connect somebody with a doctor
+• We do not reimburse medical costs, we sometimes can reimburse travel costs. Check this with team captain or Piket.",
+"Which orgs assist UM in accessing, navigating, and reimbursing medical care, incl. GP and dental?",,"Doctors of the World is the main organization assisting UM (undocumented migrants) in accessing, navigating, and reimbursing medical care, including GP and dental care. They help UM find a GP, make appointments, get medical bills reimbursed, and provide information about the Dutch healthcare system. They also offer medical, dental, and psychological care themselves. For more information and local support organizations, visit https://helpfulinformation.redcross.nl/. The Red Cross can provide referral information but does not offer medical services or reimburse medical costs.","Q: Where can I find more information about local shelter programs & BBB's? 
+ A: You can find information about the local shelter possibilities on the Red Cross website Helpful Information: https://helpfulinformation.redcross.nl/ or on the website of LOS: https://www.stichtinglos.nl/noodopvang
+
+In the following municipalities there is a shelter program for UM: 
+- Eindhoven
+- Utrecht
+- Groningen (not on HIA yet) - screening is done by Inlia https://www.inlia.nl/nl
+- AmsterdamWhere can I find more information about local shelter programs & BBB's? 
+
+You can find information about the local shelter possibilities on the Red Cross website Helpful Information: https://helpfulinformation.redcross.nl/ or on the website of LOS: https://www.stichtinglos.nl/noodopvang
+
+In the following municipalities there is a shelter program for UM: 
+- Eindhoven
+- Utrecht
+- Groningen (not on HIA yet) - screening is done by Inlia https://www.inlia.nl/nl
+- Amsterdam|Q: How do winter shelters function? A: There are two different types of winter shelter. You have the permanent winter shelter and the Cold Weather Regulation. The municipality can decide if they want to organize a permanent winter shelter and if this is accessible for undocumented migrants or not. They have the legal duty to organize the Cold Weather Regulation when temperatures go below 0 degrees as it becomes too dangerous to sleep outside. The Cold Weather Regulation can be opened in the period from the 1st of November until the 1st of April.
+Undocumented migrants always have access access to the Cold Weather Regulation, but not always to the permanent winter shelters. 
+
+Large cities (Amsterdam, Rotterdam, The Hague and Utrecht) coordinate the Cold Weather Regulation together. So they often open and close at the same time. 
+
+On the *Heplful Information website (HIA)*[https://helpfulinformation.redcross.nl/] you can find the opening times of the Cold Weather Regulation and winter shelters per city. |Q: Where can I find information about shelters for UM? A: On Helpful Information you can find information about local shelters for UM: https://helpfulinformation.redcross.nl/
+Also on the website of LOS you can find information: https://www.stichtinglos.nl/noodopvang
+|Q: Where can I find information about the medical rights of UM? 
+ A: You can find information on the website of Stichting Los: https://www.stichtinglos.nl/content/gezondheidszorg|Q: Do people have the right to see a family doctor? A: Yes, people always have the right to see a family doctor. The doctor can reimburse the costs with the CAK. 
+You can refer people to this website for information on how family doctors work in the Netherlands: 
+* https://gpinfo.nl/1-dutch-healthcare|Q: Reimbursement of medical costs. A: * Important: it is differently arranged per target group (e.g. asylum seekers, undocumented, EU migrants. You can find more information on the website of CAK: https://www.hetcak.nl/zakelijk/via-welke-regeling-declareren/ 
+• People who are undocumented have the right to receive all the necessary medical aid (medisch noodzakelijke zorg). This is care that is also in the basic health insurance. The costs are reimbursed by the CAK. you can always send the following letter to someone, they can show this letter to their doctor: https://helpfulinformation.redcross.nl/files/Brief-zorgverlening-ongedocumenteerde-migranten-landelijk.pdf 
+• Here you can see what is in the basic package: https://www.zorginstituutnederland.nl/Verzekerde+zorg/basispakket-zorgverzekeringswet-zvw
+
+What services can be reimbursed:
+* General practitioners and dentists (for oral care up to the age of 18) are reimbursed for 80% by the CAK if the undocumented patient cannot pay this themselves. The CAK expects the healthcare provider to first try to recover the costs from the patient without a residence permit. Asking for payment can deter migrants without a residence permit and therefore hinders treatment compliance.
+* You can only refer an undocumented patient to pharmacies, hospitals, Wlz and mental health care institutions with which the CAK has a contract. The list of contracted institutions changes regularly, for a current list visit Hetcak.nl/zakelijk/verzekeringen/onverzekerbare-vreemdelingen. 
+* Since 2014, there has been a personal contribution of 5 euros per medicine, unless delivery via a blister/baxter is prescribed.
+* Emergency care, by both contracted and non-contracted hospitals, is reimbursed for 80%.
+* Obstetric care is 100% reimbursed.
+* For long-term care (nursing home), AWBZ and GGZ institutions, only contracted institutions will be reimbursed for costs.
+* Dental care above the age of 18 is not reimbursed, nor are medications and aids that are not covered by the basic package or care via the WMO.
+|Q: What are important things to keep in mind? A: • You can ask for more details, but communicate why you are asking follow up questions
+• Make it clear that as the Red Cross we don’t provide medical services, we only reffer people. 
+• Let them try to contact a doctor themselves, or somobody in their network. Only if they are unable to 
+call themselves, you can do it. 
+• It can sometimes be quicker to find a doctor if they contact the doctor of their housemate / friend. 
+• In the evening / office hours; check urgency
+• Check if information is clear and if they can follow up. 
+|Q: Where can I find informational materials about healthcare in the Netherlands? A: Informational materials in multiple languages:
+https://ggdghor.nl/wp-content/uploads/2024/01/Overzicht-voorlichtingsmateriaal-in-diverse-talen-versie-2024.pdf
+
+Video's explaining the healthcare system in the Netherlands in multiple languages:
+* [English](https://www.youtube.com/watch?v=eCKtTKwnqDs&t=15s)
+* [Dutch](https://www.youtube.com/watch?v=TWGu2EDj7wk)
+* [Spanish](https://www.youtube.com/watch?v=r_xJpzV35yg)
+* [Portuguese](https://www.youtube.com/watch?v=r2XNJz2h3DQ)
+* [Farsi](https://www.youtube.com/watch?v=-RZfbTDm54k)
+* [French](https://www.youtube.com/watch?v=yUIzAnkyEtE)
+* [Arabic](https://www.youtube.com/watch?v=9Zy0PqoI51M)
+* [Chinese](https://www.youtube.com/watch?v=Q-b5b0UnPyY)|Q: What organizations help UM to get medical care? A: It can often be difficult for UM to get access to medical care, eventhough they have the right to get it. This is because of language barriers, or because doctors don't know about the rights of UM or because they are too busy to receive them. 
+
+Therefore, there are in all the bigger cities support organizations that can help UM with medical care directly (because voluntary doctors are working there) or getting them acces to health care because they have a network of doctors that are willing to help. You can find this information on HIA: https://helpfulinformation.redcross.nl/. 
+
+The main organization is Doctors of the World. They have health care busses or locations, and they also do a lot of lobby and providing information. They also have a national helpdesk (https://doktersvandewereld.org/need-help) that provides help with medical care for undocumented migrants, for example:
+* they can help UM find a GP close to them 
+* they can teach people how to make an appointment or make an appointment for them if they cannot do it themselves
+* they can help people get their medical bills reimbursed
+* they can provide information about the Dutch healthcare system
+
+Doctors of the World also provide medical care, dental care and psychological help themselves, for more information and offers in different cities see HIA.|Q: What can the Red Cross do? A: • We don’t have doctors ourselves! 
+• We only give referral information or try to connect somebody with a doctor
+• We do not reimburse medical costs, we sometimes can reimburse travel costs. Check this with team captain or Piket.",
