@@ -5926,6 +5926,17 @@ socks = ["pysocks (>=1.5.6,!=1.5.7,<2.0)"]
 zstd = ["backports-zstd (>=1.0.0) ; python_version < \"3.14\""]
 
 [[package]]
+name = "uuid"
+version = "1.30"
+description = "UUID object and generation functions (Python 2.3 or higher)"
+optional = false
+python-versions = "*"
+groups = ["main"]
+files = [
+    {file = "uuid-1.30.tar.gz", hash = "sha256:1f87cc004ac5120466f36c5beae48b4c48cc411968eed0eaecd3da82aa96193f"},
+]
+
+[[package]]
 name = "uuid-utils"
 version = "0.12.0"
 description = "Drop-in replacement for Python UUID with bindings in Rust"
@@ -6884,4 +6895,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.13"
-content-hash = "fa693849af40659ff8d44a8418f2cd465b1c6a40133fcb41ab5be63f231d5686"
+content-hash = "8e807558e3947b9300b61757955b3a841dd7cceb46ee3d2f1a377b2013fd407b"

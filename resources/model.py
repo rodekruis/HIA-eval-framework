@@ -1,3 +1,4 @@
+import os
 from langchain_openai import AzureChatOpenAI
 from deepeval.models.base_model import DeepEvalBaseLLM
 from dotenv import load_dotenv, dotenv_values
