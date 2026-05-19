@@ -1,0 +1,134 @@
+﻿Question,Answer,TA_score,TA_label,CN_score,CN_label
+I don't have a place to stay because I escaped from my trafficker. I don't know where to start.,"I'm very sorry you're going through this. Your safety is the most important thing right now.
+
+There are organizations that specifically support people who have escaped trafficking situations. They can provide safe shelter, medical care, legal advice, and emotional support.
+
+If you are in the Netherlands, you can contact specialized anti-trafficking organizations or the police for immediate help and protection. You can also reach out to social services or shelters that support victims of trafficking.
+
+If you want, I can help you find contact details for these organizations and guide you on the next steps. Please let me know.",0.715,True,0.89675,True
+"I am running away from my abuser, who is searching for me and my children. I do not know where I am and I am very afraid. What can I do?","I'm really sorry you're in this situation. Your safety and your children's safety are the most important things right now.
+
+You should try to find a safe emergency shelter or crisis center that can provide protection, support, and a secure place to stay. These shelters often have measures to keep your location confidential.
+
+If you can, contact the police or social services to report your situation—they can help protect you and your children.
+
+If you want, I can help you find emergency shelters and support services near your current location. Please let me know how I can assist you further.",0.69625,True,0.89675,True
+"I need help because I am in danger, but I do not want to go to the police because I am afraid of being deported.","I understand your fear. There are organizations and shelters that provide confidential support and protection for people in danger, regardless of their residence status. They can help you and your children find a safe place without involving immigration authorities.
+
+You can look for emergency shelters or crisis centers that specialize in supporting people in dangerous situations and offer protection without reporting to the police or immigration.
+
+If you want, I can help you find such organizations and shelters near you. Please let me know.",0.6074999999999999,False,0.75425,True
+"I have been to 3 hospitals, but they refuse me because I am undocumented. I am in immense pain and need immediate attention. I am in Amsterdam. What do I do?","I'm sorry to hear that you are in pain. In the Netherlands, even if you are undocumented, you have the right to necessary medical care.
+
+If you are in Amsterdam and need urgent medical attention, you can go to the Emergency Room of the nearest hospital or call 112 if it is life-threatening.
+
+You can also contact the Huisartsenpost Amsterdam (General Practitioner Post) outside regular office hours at +31 88 - 00 30 600 (open 17:00 - 08:00) or visit their website https://www.huisartsenpostenamsterdam.nl/.
+
+Please seek emergency help immediately if your condition is severe.",0.57125,False,0.81125,True
+I need a doctor.,"If you need a doctor in Amsterdam, you can visit the Huisartsenpost Amsterdam (General Practitioner Post) for urgent medical care outside regular office hours. They are reachable at +31 88 - 00 30 600 and open from 17:00 to 08:00.
+
+If your situation is life-threatening or an emergency, please call 112 immediately.
+
+If you want, I can help you find a nearby clinic or medical service. Let me know how I can assist you.",0.64375,True,0.7755000000000001,True
+I'm homeless and looking for a shelter. I am very tired. I don't have anyone to help me.,"I'm sorry to hear about your situation. In Amsterdam, the Netherlands Red Cross Humanitarian Service Point welcomes everyone in need, regardless of background or papers. They listen to your situation and try to find possible solutions.
+
+You can visit their office to get advice, use WiFi, chargers, toilets, and rest. However, please note that they do not provide shelter themselves, as shelter placement is managed by the municipality.
+
+You can also contact the municipality of Amsterdam directly via opvangoekraine@amsterdam.nl to report your situation and seek shelter options.
+
+If you want, I can help you with contact details or guide you on the next steps. Please let me know.",0.625,True,0.72125,True
+My family and I got denied access to the shelter. We are from Ukraine and we are in Rotterdam right now. We are very tired.,"The HUB in Rotterdam is currently closed for an indefinite period due to overcrowding and insufficient capacity. However, as an exception, this HUB continues to assist Ukrainians who have a connection to Rotterdam or the surrounding region, for example, if your children already go to school there.
+
+The HUB address is Marten Meesweg 141B, Rotterdam. You can contact them by email at opvang@rotterdam.nl.
+
+Additionally, you can visit the Vraagwijzer for free help and advice about administration, parenting, laws, money, or health. One location is the Ukrainian House at Pleinweg 196A.
+
+If you need further assistance, please let me know.",0.32125,False,0.7849999999999999,True
+"I live in Utrecht and I am on the streets now because of an abusive landlord. I went to a homeless shelter with my children and they refused me because I still have my job and some saved up money, but not enough for a hotel. Now they are threatening to take my children away. Help me!","I'm sorry to hear about your difficult situation. If you do not feel safe or are threatened, you can contact support organizations for assistance and advice.
+
+In urgent situations, you can call 112.
+
+You can also contact Veilig Thuis (Safe at Home) at 0800-2000 for help with domestic violence or threats.
+
+If you no longer want to stay where you are, you can go to an emergency shelter of the municipality. If you provide your location, I can help you find a nearby registration point.
+
+Please know that there are organizations that can support you and your children to ensure your safety.",0.5175000000000001,False,0.7639999999999999,True
+"live in Utrecht, but I got kicked out of my house today. Where can I find a warm meal?","If you are in Utrecht and need food support, you can ask someone at a public shelter where to find additional food assistance.
+
+You can also contact the Red Cross Food Program Helpdesk by calling or WhatsApp at +31 97010259797 (Mon-Fri 9:00 – 17:00).
+
+Additionally, Voedselbank Nederland (Food Bank Netherlands) distributes food parcels to displaced persons from Ukraine across the country. You can check your eligibility and find more information here: https://voedselbankennederland.nl/vertalingen/english/
+
+If you need more help, please let me know.",0.5,False,0.5637500000000001,False
+"I have applied for a Dublin claim, and I have been waiting for a response for weeks now. This is incredibly frustrating. I have family here that depends on me and I feel completely stuck.","I understand how difficult waiting for a Dublin claim response can be. Unfortunately, I don't have specific information about Dublin claim processing times or procedures in the documents I have access to.
+
+For assistance with your Dublin claim, I recommend contacting the relevant immigration or asylum authorities handling your case. They may provide updates or guidance on your situation.
+
+If you need help finding contact details or other support services, please let me know.",0.71375,True,0.8785,True
+You already told me about the day shelters. I know about those. I need an actual place to sleep tonight with my children. Stop giving me the same information!,"I understand your urgent need for shelter tonight with your children. In Utrecht, if you have been refused at a homeless shelter due to having a job and some savings, you can still try to contact the municipality's emergency shelter services directly to explain your situation and seek urgent assistance.
+
+You can also reach out to Veilig Thuis at 0800-2000 if you feel unsafe or threatened.
+
+If you want, I can help you find the contact details of the emergency shelter registration point in Utrecht or other organizations that might provide immediate shelter.
+
+Please let me know how I can assist you further.",0.39375,False,0.736,True
+"I am from Ukraine and I work in a factory. I live with my other colleagues, and my boss pays for my rent, utilities, and gives me an allowance. I want to go home this Christmas to visit my family, but he refuses because he says it's the busiest season and if I leave everyone will want to go home as well, so we will all lose our jobs. Can you help somehow?","I understand your wish to visit your family for Christmas. Unfortunately, I don't have specific information about employment or labor rights related to taking leave from work in the documents I have access to.
+
+You might consider discussing your situation with a labor union or workers' rights organization for advice on your rights regarding leave and employment conditions.
+
+If you want, I can help you find contact details for such organizations or other support services. Please let me know.",0.64375,True,0.9500000000000001,True
+"I am from Morocco and I have been living in the Netherlands for 20 years. My doctor retired and the new practice is refusing to register me because I don't have a BSN. I know my rights, and this is incredibly frustrating. What else can I do?","I understand your frustration. According to the information I have, to obtain a valid BSN (citizen service number), you need to be registered in the Basic Registration of Persons (BRP) at the municipality where you live.
+
+If you do not have a BSN, it usually means you are not registered in the BRP. You can register at your local municipality office. After registration, you will receive a BSN, which you can then use to register with a general practitioner (GP).
+
+If you have difficulties registering or need more information, please let me know your municipality, and I can guide you on how to proceed.",0.4825,False,0.6707500000000001,True
+I need food!,"If you need food support, you can:
+
+- Ask someone at the public shelter where you are staying for information about additional food assistance.
+
+- Contact the Red Cross Food Program Helpdesk by calling or WhatsApp at +31 97010259797 (Mon-Fri 9:00 – 17:00).
+
+- Check if you are eligible for food parcels from Voedselbank Nederland (Food Bank Netherlands), which distributes food parcels to displaced persons from Ukraine across the country. More information is available here: https://voedselbankennederland.nl/vertalingen/english/
+
+- Visit the Red Cross Helpful Information website for an overview of food options in different cities: https://helpfulinformation.redcross.nl/
+
+If you want, I can help you find the nearest food support option. Please let me know.",0.375,False,0.76425,True
+I have diabetes and I am undocumented. I need insulin but I also cannot afford the food I need for my diet. The doctor told me I need to eat differently but everything is too expensive.,"I’m sorry to hear about your situation. For undocumented persons with medical needs like diabetes, it can be challenging to access care and appropriate food.
+
+You might consider reaching out to local charitable organizations or health clinics that provide free or low-cost medical care and support for people without documentation. Some organizations may also offer food assistance tailored to special diets.
+
+If you want, I can help you find such organizations or clinics near you that might be able to assist with insulin and dietary support. Please let me know your location or any other details.",0.83875,True,0.9650000000000001,True
+"I have a temporary residence permit from Portugal, but I am originally from Iraq. I moved to the Netherlands to find work, but now they are telling me I cannot work here. I don’t understand. I have European papers.","Since you have temporary protection or a residence permit from Portugal, you can only live and work legally in the country that granted you temporary protection—in this case, Portugal.
+
+According to the information, you cannot work in the Netherlands under temporary protection granted by another EU country. You are allowed to visit other EU countries as a tourist but not to live and work there under temporary protection.
+
+If you want to move to the Netherlands and work here, you would need to apply for temporary protection or the appropriate residence and work permits in the Netherlands, following the proper procedures.
+
+If you want, I can help you find more information about the requirements for temporary protection or work permits in the Netherlands. Please let me know.",0.5175000000000001,False,0.9387500000000001,True
+You referred me to an organisation for asylum and they told me I don’t qualify. Nobody is helping me. I have been going from place to place and everyone keeps saying the same thing. What was the point of sending me there?,"I'm sorry to hear that you're feeling this way. I understand how difficult and frustrating it can be when you're seeking help and not getting the support you need.
+
+The organizations I refer to aim to provide accurate information and assistance based on your situation. Sometimes, eligibility criteria can be strict, and not everyone qualifies for certain types of support or protection.
+
+If you want, I can try to help you find other organizations or resources that might be able to assist you in different ways. Please let me know more about your current situation or what kind of help you are looking for, and I'll do my best to guide you.",0.7849999999999999,True,0.9457500000000001,True
+I am pregnant and my landlord kicked me out because he doesn’t want a baby in the house. I need to see a doctor for my pregnancy and I also have nowhere to sleep tonight. I don’t know what to do. I am so tired of this.,"I'm really sorry you're going through this. You need urgent help with shelter and medical care.
+
+For immediate shelter, you can try to contact local emergency shelters or organizations that support pregnant women and vulnerable persons. If you are in the Netherlands, you can also reach out to the Red Cross or local social services for emergency accommodation.
+
+For medical care, it is important to see a doctor about your pregnancy. You can visit a general practitioner (GP) or a local health clinic. If you don't have a BSN or health insurance, some clinics offer care regardless of documentation status.
+
+If you want, I can help you find the nearest emergency shelter and healthcare services for pregnant women in your area. Please let me know your location.",0.7849999999999999,True,0.77475,True
+wer find winter clodes. I nigeria.,"Hello! For finding winter clothes in Nigeria, I don't have specific information from the documents provided. However, if you are looking for clothing support in general, the Red Cross Helpful Information website offers an overview of clothing options in different cities, though it may be more focused on the Netherlands.
+
+You can check https://helpfulinformation.redcross.nl/ or for recent initiatives offering clothes at low prices: https://www.refugeehelp.nl/en/marketplace
+
+If you need help finding local options in Nigeria, I don't have that information available.",0.41,False,0.5965,False
+"I am undocumented and I have two children. They need to go to school but I am afraid to register them. Also, where can I get winter clothes for them? They are growing fast","Hello! I understand your concerns.
+
+Even if you are undocumented in the Netherlands, your children under 18 have the right to attend school. You can register your children at any school, and there are special classes to help them learn Dutch if needed. Schools will decide on admission, but children must attend school until they are 18 and have obtained a diploma.
+
+Regarding winter clothes, you can find support through initiatives listed on the Red Cross Helpful Information website, which provides an overview of clothing options in different cities. You can visit https://helpfulinformation.redcross.nl/ or see recent options at https://www.refugeehelp.nl/en/marketplace for affordable clothes.
+
+If you want, I can help you find specific places near you to get winter clothes and register your children for school. Please let me know your location.",0.76875,True,0.8995,True
+"I lost my job and got kicked out of my house because I could not pay rent. I am from Poland. I have been homeless for a couple of days, and need to shower and do laundry.","I'm sorry to hear about your situation. At emergency shelters, facilities such as showers, laundry, and hygiene items (like shower gel, shampoo, toothbrush, toothpaste) should be available according to Red Cross standards.
+
+You can try to find a crisis emergency shelter near you where you can access showers, laundry, and other basic needs. If you need help locating such a shelter, please let me know your location, and I can assist you further.",0.80375,True,0.92475,True

@@ -33,6 +33,7 @@ deepeval = "^3.8.8"
 openpyxl = "^3.1.5"
 requests = "^2.33.1"
 uuid = "^1.30"
+krippendorff = "^0.8.2"
 
 [build-system]
 requires = ["poetry-core"]

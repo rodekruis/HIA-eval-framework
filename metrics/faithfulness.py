@@ -10,7 +10,7 @@ from dotenv import load_dotenv, dotenv_values
 from deepeval.models import AzureOpenAIModel
 
 # LOADING INPUT QUESTIONS
-data = pd.read_csv("../synthetic_data/goldens.csv")
+data = pd.read_csv("../data_generation/questions.csv")
 
 # CONNECTION TO CHATBOT ENDPOINT
 endpoint = "https://hia-search-dev.azurewebsites.net/chat-dummy"
@@ -19,7 +19,7 @@ load_dotenv()
 key = os.getenv("chatbot_key")
 # making the HTTPS request to the chatbot endpoint (as client)
 responses = []
-for q in data['input']:
+for q in data['query']:
   try:
     r = requests.post(params={"api_key": key, "include_context": True}, url=endpoint, json={"message": q})
   except requests.RequestException as e:

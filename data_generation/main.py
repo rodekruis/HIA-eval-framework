@@ -3,13 +3,12 @@ import json
 import uuid
 import requests
 import pandas as pd
-from langchain_openai import data
 from dotenv import load_dotenv
 
 print("Starting data generation...")
 # LOADING INPUT QUESTIONS
-goldens = pd.read_csv("./questions.csv")
-input_questions = goldens['query']
+data = pd.read_csv(r"../synthetic_data/goldens.csv")
+input_questions = data['input']
 
 # CONNECTION TO CHATBOT ENDPOINT
 endpoint = "https://hia-search-dev.azurewebsites.net/chat-dummy"
@@ -39,11 +38,12 @@ results = []
 for i in range(len(responses)):
     results.append({
         "user_input": responses[i]['user_input'],
+        "expected_output": data['expected_output'][i],
         "bot_output": responses[i]['bot_output'],
         "context": responses[i]['context']
 
     })
 
 results_df = pd.DataFrame(results)
-results_df.to_csv( "./qa_pairs_context.csv", index=False, encoding='utf-8-sig')
-print("QA pairs + context saved.")
+results_df.to_csv( "../synthetic_data/goldens_final.csv", index=False, encoding='utf-8-sig')
+print("Questions, responses, and contexts saved.")

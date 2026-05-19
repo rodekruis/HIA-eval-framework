@@ -2084,6 +2084,21 @@ files = [
 referencing = ">=0.31.0"
 
 [[package]]
+name = "krippendorff"
+version = "0.8.2"
+description = "Fast computation of the Krippendorff's alpha measure."
+optional = false
+python-versions = ">=3.10"
+groups = ["main"]
+files = [
+    {file = "krippendorff-0.8.2-py3-none-any.whl", hash = "sha256:1922ff73f7caa5faab6237a1abcb4f3e6ab605e3f7d39acd7998176873b8cd57"},
+    {file = "krippendorff-0.8.2.tar.gz", hash = "sha256:f975bf4b5d93439d3264c4fc85a45d014aca9f5f9fca17f18fa2f3c89ee158ca"},
+]
+
+[package.dependencies]
+numpy = ">=1.21,<3"
+
+[[package]]
 name = "kubernetes"
 version = "33.1.0"
 description = "Kubernetes python client"
@@ -6895,4 +6910,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12,<3.13"
-content-hash = "8e807558e3947b9300b61757955b3a841dd7cceb46ee3d2f1a377b2013fd407b"
+content-hash = "b0d871124bddfc0060698b49ebeddab8ebd9028aef0a62d4c63fe23792e97dad"
