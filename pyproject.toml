@@ -34,6 +34,7 @@ openpyxl = "^3.1.5"
 requests = "^2.33.1"
 uuid = "^1.30"
 krippendorff = "^0.8.2"
+scikit-learn = "^1.8.0"
 
 [build-system]
 requires = ["poetry-core"]
