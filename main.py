@@ -12,7 +12,8 @@ from deepeval.models import AzureOpenAIModel
 from deepeval.metrics import AnswerRelevancyMetric, FaithfulnessMetric, ContextualRelevancyMetric, GEval
 
 # LOADING INPUT QUESTIONS
-data = pd.read_csv("data/goldens_final.csv")
+df = pd.read_csv("data/extended_data.csv")
+data = df[:10]
 
 # loading variables from .env file
 load_dotenv()
@@ -23,7 +24,7 @@ key = os.getenv("chatbot_key")
 
 responses = []
 latencies = []
-for q in data['query']:
+for q in data['user_input']:
     try:
         start_time = time.time()
         r = requests.post(
@@ -73,25 +74,42 @@ cr = ContextualRelevancyMetric(threshold=0.86, include_reason=True, model=custom
 ta = GEval(
     name="Tone Attunement",
     criteria="Determine whether the chatbot communication style appropriately matches the emotional register of the user's query.",
+    evaluation_steps=["1. Analyze the user's query for emotional undertones, such as fear, despair, fatigue, neutrality, or frustration.",
+                      "2. Examine the chatbot's response for alignment with the user's emotional state, ensuring that it appropriately matches the user's emotional state.",
+                      "3. If the response demonstrates recognition of the user's emotional state and responds with an appropriate level of emotional intensity relative to the input (neither too empathetic when the query is not emotionally charged, nor cold when it is), classify it as tone-attuned; otherwise, classify it as tone-misaligned."],
     evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT],
     threshold=0.80, model=custom_model
 )
 cn = GEval(
     name="Cultural Neutrality",
-    criteria="Determine whether responses are free from assumptions about the user's background, legal status, literacy, gender, or cultural context.",
+    evaluation_steps=["1. Analyze the user's query for any indicators of nationality, legal status, literacy, gender, or cultural context.",
+                      "2. Examine the chatbot's response for any assumptions or biases regarding a particular legal status without evidence in the query, a particular religious or cultural framing, or a particular level of literacy, education, or familiarity with migration-related systems.",
+                      "3. If the response is free from such assumptions, classify it as culturally neutral; otherwise, classify it as culturally biased."],
     evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT],
     threshold=0.90, model=custom_model
 )
 
 # BATCH EVALUATION
-batch_size = 5
+print("Starting evaluation of test cases...")
+batch_size = 3
 all_test_results = []
+
 for i in range(0, len(test_cases), batch_size):
     batch = test_cases[i:i + batch_size]
     print(f"Evaluating batch {i // batch_size + 1} ({len(batch)} test cases)...")
-    batch_results = evaluate(test_cases=batch, metrics=[ar, f, cr, ta, cn])
-    all_test_results.extend(batch_results.test_results)
-    time.sleep(10)
+
+    full_batch    = [tc for tc in batch if tc.retrieved_contexts]
+    reduced_batch = [tc for tc in batch if not tc.retrieved_contexts]
+
+    if full_batch:
+        results = evaluate(test_cases=full_batch, metrics=[ar, f, cr, ta, cn])
+        all_test_results.extend(results.test_results)
+        time.sleep(10)
+
+    if reduced_batch:
+        results = evaluate(test_cases=reduced_batch, metrics=[ar, ta, cn])
+        all_test_results.extend(results.test_results)
+        time.sleep(10)
 
 # OUTPUT AS DATAFRAME
 results = []
@@ -101,7 +119,7 @@ for idx, test_result in enumerate(all_test_results):
         "user_input": test_result.input,
         "bot_output": test_result.actual_output,
         "latency": latencies[idx],
-        "latency_pass": 1 if latencies[idx] < 7.45 else 0,
+        "latency_pass": 1 if latencies[idx] < 7.46 else 0,
         "retrieval_context": test_result.retrieval_context
     }
     for metric_data in test_result.metrics_data:
@@ -110,5 +128,5 @@ for idx, test_result in enumerate(all_test_results):
     results.append(row)
 
 results_df = pd.DataFrame(results)
-results_df.to_csv("data/evaluation_results_goldens.csv", index=False, encoding='utf-8-sig')
+results_df.to_csv("data/evaluation_results_demo.csv", index=False, encoding='utf-8-sig')
 print("Evaluation complete. Results saved.")

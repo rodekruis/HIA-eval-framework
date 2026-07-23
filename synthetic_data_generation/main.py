@@ -8,8 +8,8 @@ from dotenv import load_dotenv, dotenv_values
 
 # Read source file for generating synthetic data
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-file_path = os.path.join(SCRIPT_DIR, "hia_undocumented_migrants_faq_en.xlsx")
-baseline = pd.read_excel(file_path)
+file_path = os.path.join(SCRIPT_DIR, "qa_pairs.csv")
+baseline = pd.read_csv(file_path)
 # Transform the data into a format suitable for the synthesizer
 baseline = baseline.dropna() # Drop rows with any missing values
 baseline = np.array(baseline)
@@ -19,7 +19,7 @@ qa_pairs = [(baseline[i][0], baseline[i][1]) for i in range(len(baseline))]
 qa_strings = [f"Q: {q} A: {a}" for q, a in qa_pairs]
 
 # Azure OpenAI credentials
-endpoint = "https://510-foundry-research.cognitiveservices.azure.com/"
+endpoint = "https://510-ai-research.openai.azure.com/"
 deployment = "gpt-4.1-students"
 api_version = "2024-12-01-preview"
 
@@ -76,5 +76,5 @@ data = [{
 } for g in goldens]
 
 df = pd.DataFrame(data)
-df.to_csv("./synthetic_data/goldens.csv", index=False, encoding="utf-8-sig")
-print(f"Saved {len(df)} goldens to ./synthetic_data/goldens.csv")
+df.to_csv("./synthetic_data/expanded_data.csv", index=False, encoding="utf-8-sig")
+print(f"Saved {len(df)} goldens to ./synthetic_data/expanded_data.csv")

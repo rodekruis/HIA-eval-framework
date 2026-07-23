@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 
 print("Starting data generation...")
 # LOADING INPUT QUESTIONS
-data = pd.read_csv("../data/goldens.csv")
+data = pd.read_csv("../synthetic_data_generation/synthetic_data/final_extended_data.csv")
 input_questions = data['input']
 
 # CONNECTION TO CHATBOT ENDPOINT
@@ -48,5 +48,5 @@ for i in range(len(responses)):
     })
 
 results_df = pd.DataFrame(results)
-results_df.to_csv( "../data/goldens_final.csv", index=False, encoding='utf-8-sig')
+results_df.to_csv( "../data/extended_data.csv", index=False, encoding='utf-8-sig')
 print("Questions, responses, and contexts saved.")
