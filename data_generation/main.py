@@ -41,7 +41,7 @@ for i in range(len(responses)):
     idx = responses[i]['orig_idx']
     results.append({
         "user_input": responses[i]['user_input'],
-        "expected_output": data['expected_output'][idx],
+        # "expected_output": data['expected_output'][idx],
         "bot_output": responses[i]['bot_output'],
         "context": responses[i]['context']
 

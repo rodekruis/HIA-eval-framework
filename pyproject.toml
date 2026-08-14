@@ -36,6 +36,7 @@ uuid = "^1.30"
 krippendorff = "^0.8.2"
 scikit-learn = "^1.8.0"
 matplotlib = "^3.10.9"
+anthropic = "^0.120.0"
 
 [build-system]
 requires = ["poetry-core"]
