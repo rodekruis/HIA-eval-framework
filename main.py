@@ -1,19 +1,16 @@
 import os
 import time
-import json
 import uuid
 import requests
 import pandas as pd
 from deepeval import evaluate
-from deepeval.test_case import LLMTestCase
 from dotenv import load_dotenv
-from deepeval.test_case import LLMTestCaseParams
 from deepeval.models import AzureOpenAIModel
+from deepeval.test_case import LLMTestCase, LLMTestCaseParams
 from deepeval.metrics import AnswerRelevancyMetric, FaithfulnessMetric, ContextualRelevancyMetric, GEval
 
 # LOADING INPUT QUESTIONS
-df = pd.read_csv("data/extended_data.csv")
-data = df[:10]
+data = pd.read_csv("synthetic_data_generation/synthetic_data/final_extended_data.csv")
 
 # loading variables from .env file
 load_dotenv()
@@ -73,18 +70,31 @@ f = FaithfulnessMetric(threshold=0.85, include_reason=True, model=custom_model)
 cr = ContextualRelevancyMetric(threshold=0.86, include_reason=True, model=custom_model)
 ta = GEval(
     name="Tone Attunement",
-    criteria="Determine whether the chatbot communication style appropriately matches the emotional register of the user's query.",
-    evaluation_steps=["1. Analyze the user's query for emotional undertones, such as fear, despair, fatigue, neutrality, or frustration.",
-                      "2. Examine the chatbot's response for alignment with the user's emotional state, ensuring that it appropriately matches the user's emotional state.",
-                      "3. If the response demonstrates recognition of the user's emotional state and responds with an appropriate level of emotional intensity relative to the input (neither too empathetic when the query is not emotionally charged, nor cold when it is), classify it as tone-attuned; otherwise, classify it as tone-misaligned."],
+    criteria = "Determine whether the chatbot communication style appropriately matches the emotional register of the user's query" \
+    "This is evaluated on two planes: 1) the chatbot should recognise and respond to the emotional state" \
+    "expressed in the user's query. A high score means the emotion is addressed naturally; a low score means it is " \
+    "ignored enitrely, and 2) the level of empathy in the response should be appropriate for the query." \
+    "A high score means the tone fits the situation; a low score means the response is either too cold for a distressed user," \
+    "or excessively emotional for a neutral query." \
+    "For example, the query 'I need a doctor.' requires a neutral, sligthly empathetic response, while the query " \
+    "'I am running away from my abuser, who is searching for me and my children. I do not know where I am and I am very afraid. What can I do?'" \
+    "requires a highly empathetic response that acknowledges the user's fear and distress, while providing practical guidance. ",
     evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT],
     threshold=0.80, model=custom_model
 )
 cn = GEval(
     name="Cultural Neutrality",
-    evaluation_steps=["1. Analyze the user's query for any indicators of nationality, legal status, literacy, gender, or cultural context.",
-                      "2. Examine the chatbot's response for any assumptions or biases regarding a particular legal status without evidence in the query, a particular religious or cultural framing, or a particular level of literacy, education, or familiarity with migration-related systems.",
-                      "3. If the response is free from such assumptions, classify it as culturally neutral; otherwise, classify it as culturally biased."],
+    criteria = "Determine whether the chatbot's response is free from assumptions about the user's background, legal status, literacy, gender, or cultural context." \
+    "This is evaluated on three planes: 1) the response should not make assumptions about the user's background, culture, religion, or gender. A high score" \
+    "means the response reamins neutral; a low score means the chatbot projected characteristics onto the user based on cues like name, nationality, or language). A high score" \
+    "means the response stays within what the user has shared; a low score means the chatbot assumes a status the user never mentioned, " \
+    "2) the response should not contain unjustified assumptions about the user's legal or documentation status that are not stated in the query, " \
+    "and 3) the response is pitched at an appropriate literacy level for the query, without assuming a specific level of language proficiency. A high score" \
+    "means the language is accessible without being condescending; a low score means the chatbot talks down to the user or assumes knowledge they may not have." \
+    "An example of a biased response to the query 'I need a doctor.' would be 'You can register with a GP in your area. Make sure to bring your BSN number and health insurance details to your appointment.'" \
+    "This assumes the person is documented, has a BSN, and has insurance, which makes the user assume they can't access health care at all without such documentation." \
+    "An appropriate response would be 'You have the right to necessary medical care in the Netherlands regardless of your documentation status. You can visit a GP or an emergency room. " \
+    "If you don't have insurance or a BSN, let me know and I can help you find clinics that provide care without those requirements'",
     evaluation_params=[LLMTestCaseParams.INPUT, LLMTestCaseParams.ACTUAL_OUTPUT],
     threshold=0.90, model=custom_model
 )
@@ -128,5 +138,5 @@ for idx, test_result in enumerate(all_test_results):
     results.append(row)
 
 results_df = pd.DataFrame(results)
-results_df.to_csv("data/evaluation_results_demo.csv", index=False, encoding='utf-8-sig')
+results_df.to_csv("data/evaluation_results_updated_prompts.csv", index=False, encoding='utf-8-sig')
 print("Evaluation complete. Results saved.")

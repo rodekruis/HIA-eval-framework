@@ -142,11 +142,42 @@ evolution_config = EvolutionConfig(
     num_evolutions=4
 )
 
+# Styling and evolution configuration for the subset queries developed to target the Tone Attunement metric
+styling_config = StylingConfig(
+    scenario=("Undocumented migrants, asylum seekers, EU labour migrants, or residence permit holders/ individuals with Dutch nationality "
+              "seeking information regarding shelter, healthcare/ wellbeing, food, clothing, or safety/ protection in the Netherlands."),
+    task=("Testing a custom metric developed to evaluate the performance of a chatbot designed to assist vulnerable individuals seeking information regarding "
+          "shelter, healthcare/ wellbeing, food, clothing, or safety/ protection in the Netherlands. More specifically, the metric is designed to "
+          "ensure the chatbot identifies and appropriately responds to the user's emotional state, and that the chatbot's responses are attuned to the user's tone and emotional needs."),
+    input_format=("User queries in English which can either be questions, inquiries, clarifications, statements, or unclear expressions of intent. "
+    "The queries can include either one topic or multiple from: Shelter, Healthcare/Wellbeing, Food, Clothing, Safety/Protection. Remember you are a user of the chatbot, not an analyst or a researcher. "\
+    "Queries should sometimes contain spelling errors or grammatical errors."\
+    "The queries should be written in informal, human-like language, and should not be overly formal or technical."\
+    "The queries will most likely be in first-person." \
+    "Address the chatbot directly as if you are an individual seeking information."\
+    "Don't mention that you are seeking help in the Netherlands, as the chatbot already knows this." \
+    "Not every query should be a question. Some queries should be statements or clarifications."\
+    "The queries should be diverse in terms of the topics they cover"\
+    "The queries MUST express one or more of the following emotional undertones: fear, frustration, fatigue, hopelessness, calmness/ neutrality. " \
+    "The queries should be diverse in terms of the emotional undertones they express. Calmness/ neutrality is included as a baseline emotional state.")
+)
+
+evolution_config = EvolutionConfig(
+    evolutions={
+        Evolution.REASONING: 0.1,
+        Evolution.COMPARATIVE: 0.1,
+        Evolution.CONSTRAINED: 0.2,
+        Evolution.HYPOTHETICAL: 0.4,
+        Evolution.IN_BREADTH: 0.2,
+    },
+    num_evolutions=4
+)
+
 synthesizer = Synthesizer(model=custom_model, cost_tracking=False, async_mode=False, styling_config=styling_config)
 
 # Generating new goldens in batches
 BATCH_SIZE = 5          # how many goldens to process per batch
-PAUSE_BETWEEN_BATCHES = 10  # seconds to rest between batches
+PAUSE_BETWEEN_BATCHES = 10  # seconds
 MAX_GOLDENS_PER_GOLDEN = 5
 
 all_results = []
@@ -182,5 +213,5 @@ print(f"\nDone. {len(final_df)} goldens generated. {len(failed_goldens)} goldens
 
 # Keep only the columns you need
 export_df = final_df[["input", "expected_output", "context"]]
-export_df.to_csv("synthetic_data/cultural_neutrality_target.csv", index=False, encoding="utf-8-sig")
-print(f"Saved {len(export_df)} goldens to synthetic_data/cultural_neutrality_target.csv")
+export_df.to_csv("synthetic_data/tone_attunement_target.csv", index=False, encoding="utf-8-sig")
+print(f"Saved {len(export_df)} goldens to synthetic_data/tone_attunement_target.csv")
